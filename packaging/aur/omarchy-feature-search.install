@@ -1,0 +1,21 @@
+post_install() {
+    echo ""
+    echo "  ==> Omarchy Feature Search installed!"
+    echo ""
+    echo "  Launch it from the Super+Space launcher or run: omarchy-feature-search"
+    echo ""
+    echo "  Required deps (already installed):"
+    echo "    pyside6, yt-dlp, ffmpeg"
+    echo ""
+    echo "  Optional — for semantic (vector) search:"
+    echo "    yay -S python-sentence-transformers python-chromadb"
+    echo "    (pulls in python-pytorch, ~2GB)"
+    echo ""
+    echo "  Then build the vector index once:"
+    echo "    python -m data_pipeline.build_data --steps thumbnails,embed"
+    echo ""
+}
+
+post_upgrade() {
+    post_install
+}

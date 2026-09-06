@@ -26,6 +26,7 @@ optdepends=(
     'python-sentence-transformers: semantic (vector) search backend'
     'python-chromadb: persistent vector index for the semantic search backend'
 )
+install=omarchy-feature-search.install
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
