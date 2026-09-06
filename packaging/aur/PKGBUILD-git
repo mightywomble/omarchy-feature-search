@@ -11,7 +11,7 @@ url="https://git.safehomelan.com/david/ncomarchykb"
 license=('MIT')
 depends=(
     'python>=3.11'
-    'python-pyside6>=6.7'
+    'pyside6>=6.7'
     'yt-dlp'
     'ffmpeg'
 )
@@ -30,17 +30,17 @@ source=("git+${url}.git")
 sha256sums=('SKIP')
 
 pkgver() {
-    cd "${srcdir}/${pkgname%-git}"
+    cd "${srcdir}/ncomarchykb"
     git describe --long --tags 2>/dev/null | sed 's/^v//;s/-/./g' || printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
-    cd "${srcdir}/${pkgname%-git}"
+    cd "${srcdir}/ncomarchykb"
     python -m build --wheel --no-isolation
 }
 
 package() {
-    cd "${srcdir}/${pkgname%-git}"
+    cd "${srcdir}/ncomarchykb"
     python -m installer --destdir="${pkgdir}" dist/*.whl
 
     install -Dm644 packaging/aur/omarchy-feature-search.desktop \
