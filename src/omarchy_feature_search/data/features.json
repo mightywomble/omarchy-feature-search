@@ -10,7 +10,7 @@
       "start_s": 14,
       "end_s": 27,
       "transcript_summary": "use this. Don't worry, it's not that scary. First, learn your key bindings. Super First, learn your key bindings. Super key, K. And by the way, super key is key, K. And by the way, super key is key, K. And by the way, super key is either your command or Windows key. either your command or Windows key. either your command or Windows key. Here's all your Windows shortcuts. Let's Here's all your Windows shortcuts. Let's Here's all your Windows shortcuts. Let's search for terminal. Tells you how to search for terminal. Tells you how to search for terminal. Tells you how to open terminal. Super and return. Let's open terminal. Super and return. Let's open terminal. Super and return. Let's try it. Super, return. There's our",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/001.png"
     },
     {
       "feature_group": "Keybindings & Search",
@@ -19,7 +19,7 @@
       "start_s": 27,
       "end_s": 34,
       "transcript_summary": "open terminal. Super and return. Let's try it. Super, return. There's our try it. Super, return. There's our try it. Super, return. There's our terminal. Hit the escape key to close terminal. Hit the escape key to close terminal. Hit the escape key to close that dialogue. Hit super key space and that dialogue. Hit super key space and that dialogue. Hit super key space and this is your entire system. Search for this is your entire system. Search for this is your entire system. Search for reboot",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/002.png"
     },
     {
       "feature_group": "Keybindings & Search",
@@ -28,7 +28,7 @@
       "start_s": 34,
       "end_s": 39,
       "transcript_summary": "this is your entire system. Search for reboot reboot reboot or shut down if you only care about or shut down if you only care about or shut down if you only care about apps. Super key alt space.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/003.png"
     },
     {
       "feature_group": "Clipboard & Navigation",
@@ -37,7 +37,7 @@
       "start_s": 39,
       "end_s": 47,
       "transcript_summary": "or shut down if you only care about apps. Super key alt space. apps. Super key alt space. apps. Super key alt space. And there's all the apps. Universal copy And there's all the apps. Universal copy And there's all the apps. Universal copy and paste that works everywhere. Check and paste that works everywhere. Check and paste that works everywhere. Check this out. Super key C. Super key V. Yes,",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/004.png"
     },
     {
       "feature_group": "Clipboard & Navigation",
@@ -46,7 +46,7 @@
       "start_s": 47,
       "end_s": 53,
       "transcript_summary": "and paste that works everywhere. Check this out. Super key C. Super key V. Yes, this out. Super key C. Super key V. Yes, this out. Super key C. Super key V. Yes, even in the terminal. Hit super control even in the terminal. Hit super control even in the terminal. Hit super control V to see your clipboard history. Even V to see your clipboard history. Even V to see your clipboard history. Even has images in there. That's actually",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/005.png"
     },
     {
       "feature_group": "Window Management",
@@ -55,7 +55,7 @@
       "start_s": 53,
       "end_s": 58,
       "transcript_summary": "V to see your clipboard history. Even has images in there. That's actually has images in there. That's actually has images in there. That's actually pretty sick. I didn't know it did that. pretty sick. I didn't know it did that. pretty sick. I didn't know it did that. Now I'm going to open a browser. Super Now I'm going to open a browser. Super Now I'm going to open a browser. Super key shift B. Still no mouse. Watch me",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/006.png"
     },
     {
       "feature_group": "Window Management",
@@ -64,7 +64,7 @@
       "start_s": 58,
       "end_s": 63,
       "transcript_summary": "Now I'm going to open a browser. Super key shift B. Still no mouse. Watch me key shift B. Still no mouse. Watch me key shift B. Still no mouse. Watch me move around. Super key left.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/007.png"
     },
     {
       "feature_group": "Window Management",
@@ -73,7 +73,7 @@
       "start_s": 63,
       "end_s": 69,
       "transcript_summary": "key shift B. Still no mouse. Watch me move around. Super key left. move around. Super key left. move around. Super key left. Terminal. Super key right. Browser. Terminal. Super key right. Browser. Terminal. Super key right. Browser. Super key shift left. I can make him Super key shift left. I can make him Super key shift left. I can make him switch. Do it again. Boom. Maybe you",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/008.png"
     },
     {
       "feature_group": "Window Management",
@@ -82,7 +82,7 @@
       "start_s": 69,
       "end_s": 74,
       "transcript_summary": "Super key shift left. I can make him switch. Do it again. Boom. Maybe you switch. Do it again. Boom. Maybe you switch. Do it again. Boom. Maybe you like horizontal. Super key J. Super key",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/009.png"
     },
     {
       "feature_group": "Window Management",
@@ -91,7 +91,7 @@
       "start_s": 74,
       "end_s": 81,
       "transcript_summary": "switch. Do it again. Boom. Maybe you like horizontal. Super key J. Super key like horizontal. Super key J. Super key like horizontal. Super key J. Super key J. Put it back. Maybe you miss your J. Put it back. Maybe you miss your J. Put it back. Maybe you miss your mouse. Hold down super key and you can mouse. Hold down super key and you can mouse. Hold down super key and you can actually drag any one of these guys actually drag any one of these guys actually drag any one of these guys around.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/010.png"
     },
     {
       "feature_group": "Window Management",
@@ -100,7 +100,7 @@
       "start_s": 81,
       "end_s": 85,
       "transcript_summary": "actually drag any one of these guys around. around. around. See, you'll be okay. Super key W closes See, you'll be okay. Super key W closes See, you'll be okay. Super key W closes a window. I'm going to open it back up.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/011.png"
     },
     {
       "feature_group": "Window Management",
@@ -109,7 +109,7 @@
       "start_s": 85,
       "end_s": 89,
       "transcript_summary": "See, you'll be okay. Super key W closes a window. I'm going to open it back up. a window. I'm going to open it back up. a window. I'm going to open it back up. and then Ctrl Altdelete closes and then Ctrl Altdelete closes and then Ctrl Altdelete closes everything. Now, what if I told you you",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/012.png"
     },
     {
       "feature_group": "Workspaces",
@@ -118,7 +118,7 @@
       "start_s": 89,
       "end_s": 98,
       "transcript_summary": "and then Ctrl Altdelete closes everything. Now, what if I told you you everything. Now, what if I told you you everything. Now, what if I told you you don't need another monitor, you just don't need another monitor, you just don't need another monitor, you just need one because you have workspaces. need one because you have workspaces. need one because you have workspaces. Super key two, three, four. Notice here Super key two, three, four. Notice here Super key two, three, four. Notice here in the top, we're switching. Let's go",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/013.png"
     },
     {
       "feature_group": "Workspaces",
@@ -127,7 +127,7 @@
       "start_s": 98,
       "end_s": 104,
       "transcript_summary": "Super key two, three, four. Notice here in the top, we're switching. Let's go in the top, we're switching. Let's go in the top, we're switching. Let's go back to one. Super key one. Pick your back to one. Super key one. Pick your back to one. Super key one. Pick your app. Super key, shift. Let's put that in app. Super key, shift. Let's put that in app. Super key, shift. Let's put that in three. Boom. He's in three. Let's go",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/014.png"
     },
     {
       "feature_group": "Workspaces",
@@ -136,7 +136,7 @@
       "start_s": 104,
       "end_s": 112,
       "transcript_summary": "app. Super key, shift. Let's put that in three. Boom. He's in three. Let's go three. Boom. He's in three. Let's go three. Boom. He's in three. Let's go back to one. Go back to three. Let's put back to one. Go back to three. Let's put back to one. Go back to three. Let's put the browser back in three without the browser back in three without the browser back in three without following it. Super shift alt one. And",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/015.png"
     },
     {
       "feature_group": "Window Modes",
@@ -145,7 +145,7 @@
       "start_s": 112,
       "end_s": 120,
       "transcript_summary": "the browser back in three without following it. Super shift alt one. And following it. Super shift alt one. And following it. Super shift alt one. And there it goes. Let's follow it back. there it goes. Let's follow it back. there it goes. Let's follow it back. Super key one. Full screen in three Super key one. Full screen in three Super key one. Full screen in three ways. With our browser highlighted, ways. With our browser highlighted, ways. With our browser highlighted, we'll go command F. That's all browser.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/016.png"
     },
     {
       "feature_group": "Window Modes",
@@ -154,7 +154,7 @@
       "start_s": 120,
       "end_s": 128,
       "transcript_summary": "ways. With our browser highlighted, we'll go command F. That's all browser. we'll go command F. That's all browser. we'll go command F. That's all browser. Command F to put it back. Maybe you just Command F to put it back. Maybe you just Command F to put it back. Maybe you just want full width, not full screen. want full width, not full screen. want full width, not full screen. Command Alt F. We got some space around Command Alt F. We got some space around Command Alt F. We got some space around the edges. Command alt F. Put it back.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/017.png"
     },
     {
       "feature_group": "Window Modes",
@@ -163,7 +163,7 @@
       "start_s": 128,
       "end_s": 137,
       "transcript_summary": "Command Alt F. We got some space around the edges. Command alt F. Put it back. the edges. Command alt F. Put it back. the edges. Command alt F. Put it back. Or maybe you want full screen inside the Or maybe you want full screen inside the Or maybe you want full screen inside the window. Super control F. And it's kind window. Super control F. And it's kind window. Super control F. And it's kind of weird, but we're full screen right of weird, but we're full screen right of weird, but we're full screen right there. Let's get out of there. Super there. Let's get out of there. Super there. Let's get out of there. Super control F. Now I'm going to open a few",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/018.png"
     },
     {
       "feature_group": "Layouts & Scratchpad",
@@ -172,7 +172,7 @@
       "start_s": 137,
       "end_s": 150,
       "transcript_summary": "there. Let's get out of there. Super control F. Now I'm going to open a few control F. Now I'm going to open a few control F. Now I'm going to open a few more things. Command enter. Command more things. Command enter. Command more things. Command enter. Command shift enter. Open another browser. shift enter. Open another browser. shift enter. Open another browser. Notice how it's tiling. Maybe you don't Notice how it's tiling. Maybe you don't Notice how it's tiling. Maybe you don't want that. Maybe you want scrolling. want that. Maybe you want scrolling. want that. Maybe you want scrolling. Command L. Look at that. Command jump Command L. Look at that. Command jump Command L. Look at that. Command jump around. Command L to put it back. This",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/019.png"
     },
     {
       "feature_group": "Layouts & Scratchpad",
@@ -181,7 +181,7 @@
       "start_s": 150,
       "end_s": 159,
       "transcript_summary": "Command L. Look at that. Command jump around. Command L to put it back. This around. Command L to put it back. This around. Command L to put it back. This one's my favorite. Let's select our one's my favorite. Let's select our one's my favorite. Let's select our browser. Command uh over. Easy for me to browser. Command uh over. Easy for me to browser. Command uh over. Easy for me to say. And I'm going to hit super alt s. say. And I'm going to hit super alt s. say. And I'm going to hit super alt s. Where did he go? He's in my scratch pad.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/020.png"
     },
     {
       "feature_group": "Layouts & Scratchpad",
@@ -190,7 +190,7 @@
       "start_s": 159,
       "end_s": 176,
       "transcript_summary": "say. And I'm going to hit super alt s. Where did he go? He's in my scratch pad. Where did he go? He's in my scratch pad. Where did he go? He's in my scratch pad. Hitting control s brings him back up Hitting control s brings him back up Hitting control s brings him back up at any time. How cool is that? They can at any time. How cool is that? They can at any time. How cool is that? They can go away. Boom. And that's powerful for go away. Boom. And that's powerful for go away. Boom. And that's powerful for when you want to switch workspaces, but when you want to switch workspaces, but when you want to switch workspaces, but you want him to come with you wherever you want him to come with you wherever you want him to come with you wherever you go. I love that. Great for Slack or you go. I love that. Great for Slack or you go. I love that. Great for Slack or like a terminal or something. Now, check like a terminal or something. Now, check like a terminal or something. Now, check this out. I'm going to select a browser.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/021.png"
     },
     {
       "feature_group": "Window Grouping",
@@ -199,7 +199,7 @@
       "start_s": 176,
       "end_s": 189,
       "transcript_summary": "like a terminal or something. Now, check this out. I'm going to select a browser. this out. I'm going to select a browser. this out. I'm going to select a browser. Actually, I'll select YouTube here. If I Actually, I'll select YouTube here. If I Actually, I'll select YouTube here. If I do super G, suddenly I have a group. do super G, suddenly I have a group. do super G, suddenly I have a group. Notice the label on the tab right there. Notice the label on the tab right there. Notice the label on the tab right there. If I open another tab while I'm there, If I open another tab while I'm there, If I open another tab while I'm there, it's also grouped right there. If I do",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/022.png"
     },
     {
       "feature_group": "Window Grouping",
@@ -208,7 +208,7 @@
       "start_s": 189,
       "end_s": 199,
       "transcript_summary": "If I open another tab while I'm there, it's also grouped right there. If I do it's also grouped right there. If I do it's also grouped right there. If I do super alt one or two, one, two, one, super alt one or two, one, two, one, super alt one or two, one, two, one, two, I can switch back and forth between two, I can switch back and forth between two, I can switch back and forth between those. Or just super control arrow will",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/023.png"
     },
     {
       "feature_group": "Window Grouping",
@@ -217,7 +217,7 @@
       "start_s": 199,
       "end_s": 206,
       "transcript_summary": "two, I can switch back and forth between those. Or just super control arrow will those. Or just super control arrow will those. Or just super control arrow will move me back and forth. and then super move me back and forth. and then super move me back and forth. and then super alt alt alt G will ungroup them. This coffee break G will ungroup them. This coffee break G will ungroup them. This coffee break is sponsored by Threat Locker because",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/024.png"
     },
     {
       "feature_group": "App Management",
@@ -226,7 +226,7 @@
       "start_s": 325,
       "end_s": 361,
       "transcript_summary": "threater.com/networkchuck-ai. Now, back to a Okay, you can move around Now, back to a Okay, you can move around Now, back to a Okay, you can move around now, but how do you install stuff? now, but how do you install stuff? now, but how do you install stuff? Coffee break. Coffee break. Coffee break. Let's go. Super key space. Type in Let's go. Super key space. Type in Let's go. Super key space. Type in install and there it is. Hit enter. install and there it is. Hit enter. install and there it is. Hit enter. Install what? So many options. package Install what? So many options. package Install what? So many options. package is from the official Arch and Omari is from the official Arch and Omari is from the official Arch and Omari Amachi repositories. The AUR is the Arch Amachi repositories. The AUR is the Arch Amachi repositories. The AUR is the Arch user repository. Be careful there. user repository. Be careful there. user repository. Be careful there. Anybody can just throw things up there. Anybody can just throw things up there. Anybody can just throw things up there. Hitting package, we can find things like Hitting package, we can find things like Hitting package, we can find things like Slack, or Discord. We'll install Slack, or Discord. We'll install Slack, or Discord. We'll install Hit enter. Pseudo password. And Hit enter. Pseudo password. And Hit enter. Pseudo password. And that's it. I'll search for it. And you that's it. I'll search for it. And you that's it. I'll search for it. And you thought Linux was scary. You can also do",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/025.png"
     },
     {
       "feature_group": "App Management",
@@ -235,7 +235,7 @@
       "start_s": 361,
       "end_s": 370,
       "transcript_summary": "that's it. I'll search for it. And you thought Linux was scary. You can also do thought Linux was scary. You can also do thought Linux was scary. You can also do it in reverse. Super key space. Search it in reverse. Super key space. Search it in reverse. Super key space. Search for remove. Remove package. for remove. Remove package. for remove. Remove package. And let's actually remove",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/026.png"
     },
     {
       "feature_group": "App Management",
@@ -244,7 +244,7 @@
       "start_s": 370,
       "end_s": 382,
       "transcript_summary": "for remove. Remove package. And let's actually remove And let's actually remove And let's actually remove Done. And if it's a popular app, you can Done. And if it's a popular app, you can Done. And if it's a popular app, you can hit command space and actually search hit command space and actually search hit command space and actually search for it. Like Brave right there, I can for it. Like Brave right there, I can for it. Like Brave right there, I can just install it from here. And boom. I just install it from here. And boom. I just install it from here. And boom. I have Brave. That looks nice. Now you",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/027.png"
     },
     {
       "feature_group": "App Management",
@@ -253,7 +253,7 @@
       "start_s": 382,
       "end_s": 399,
       "transcript_summary": "just install it from here. And boom. I have Brave. That looks nice. Now you have Brave. That looks nice. Now you have Brave. That looks nice. Now you Hey, you. I get it. There might be some Hey, you. I get it. There might be some Hey, you. I get it. There might be some bloat wear coming in with Omachi. If I bloat wear coming in with Omachi. If I bloat wear coming in with Omachi. If I hit super alt space, what's basec camp? hit super alt space, what's basec camp? hit super alt space, what's basec camp? Hey. And this neov thing. You can Hey. And this neov thing. You can Hey. And this neov thing. You can debloat immediately. Let's do it. Super debloat immediately. Let's do it. Super debloat immediately. Let's do it. Super space. Search for pre-installs. And you space. Search for pre-installs. And you space. Search for pre-installs. And you can remove all your pre-installs. Now, I can remove all your pre-installs. Now, I can remove all your pre-installs. Now, I don't want to. I like them, but you can don't want to. I like them, but you can don't want to. I like them, but you can do it. If I want this as my default, hit",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/028.png"
     },
     {
       "feature_group": "App Management",
@@ -262,7 +262,7 @@
       "start_s": 399,
       "end_s": 416,
       "transcript_summary": "don't want to. I like them, but you can do it. If I want this as my default, hit do it. If I want this as my default, hit do it. If I want this as my default, hit command space, search for browser, command space, search for browser, command space, search for browser, set defaults, and we'll select Brave. set defaults, and we'll select Brave. set defaults, and we'll select Brave. Done. So, now when I close this, and I Done. So, now when I close this, and I Done. So, now when I close this, and I hit command, shift enter, Brave opens hit command, shift enter, Brave opens hit command, shift enter, Brave opens up. Now, notice we really haven't been up. Now, notice we really haven't been up. Now, notice we really haven't been using our mouse too much. And the more using our mouse too much. And the more using our mouse too much. And the more you do this, the better it's going to you do this, the better it's going to you do this, the better it's going to feel. All right, coffee break. What do",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/029.png"
     },
     {
       "feature_group": "Web & TUI Apps",
@@ -271,7 +271,7 @@
       "start_s": 416,
       "end_s": 440,
       "transcript_summary": "you do this, the better it's going to feel. All right, coffee break. What do feel. All right, coffee break. What do feel. All right, coffee break. What do you say we turn any website into an app? you say we turn any website into an app? you say we turn any website into an app? Let's do it. Hit control L to go to your Let's do it. Hit control L to go to your Let's do it. Hit control L to go to your URL bar. Let's turn this into a web app. URL bar. Let's turn this into a web app. URL bar. Let's turn this into a web app. super key space. Search for a web app. super key space. Search for a web app. super key space. Search for a web app. Install. We'll name it NCA URL. Install. We'll name it NCA URL. Install. We'll name it NCA URL. And that's it. So now if I close this, And that's it. So now if I close this, And that's it. So now if I close this, search for NCA. search for NCA. search for NCA. There it is. How sick is that? And did There it is. How sick is that? And did There it is. How sick is that? And did you know you already have some web apps? you know you already have some web apps? you know you already have some web apps? Super key. Shift Y. YouTube. Super key.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/030.png"
     },
     {
       "feature_group": "Web & TUI Apps",
@@ -280,7 +280,7 @@
       "start_s": 440,
       "end_s": 449,
       "transcript_summary": "you know you already have some web apps? Super key. Shift Y. YouTube. Super key. Super key. Shift Y. YouTube. Super key. Super key. Shift Y. YouTube. Super key. Shift X. We can make our own key Shift X. We can make our own key Shift X. We can make our own key bindings, but we'll save that for AI. bindings, but we'll save that for AI. bindings, but we'll save that for AI. Forget web apps. What about terminal Forget web apps. What about terminal Forget web apps. What about terminal apps? Tuies. Check this out. I'll do",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/031.png"
     },
     {
       "feature_group": "Web & TUI Apps",
@@ -289,7 +289,7 @@
       "start_s": 449,
       "end_s": 473,
       "transcript_summary": "Forget web apps. What about terminal apps? Tuies. Check this out. I'll do apps? Tuies. Check this out. I'll do apps? Tuies. Check this out. I'll do command space install a package. We'll command space install a package. We'll command space install a package. We'll install term sharkark a tui based wire install term sharkark a tui based wire install term sharkark a tui based wire sharkark inside the terminal. Then hit sharkark inside the terminal. Then hit sharkark inside the terminal. Then hit command space tui tui install. We'll command space tui tui install. We'll command space tui tui install. We'll call it term sharkark command we're call it term sharkark command we're call it term sharkark command we're going to launch with will be pseudo term going to launch with will be pseudo term going to launch with will be pseudo term shark because it doesn't need pseudo. shark because it doesn't need pseudo. shark because it doesn't need pseudo. Have it float. Have it float. Have it float. And that's it. Now command space term And that's it. Now command space term And that's it. Now command space term shark. There it is. I love it. Some",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/032.png"
     },
     {
       "feature_group": "Web & TUI Apps",
@@ -298,7 +298,7 @@
       "start_s": 473,
       "end_s": 483,
       "transcript_summary": "And that's it. Now command space term shark. There it is. I love it. Some shark. There it is. I love it. Some shark. There it is. I love it. Some hotkeys will install apps for you like hotkeys will install apps for you like hotkeys will install apps for you like super shiftg. We're installing signal. super shiftg. We're installing signal. super shiftg. We're installing signal. And of course once it installs hitting And of course once it installs hitting And of course once it installs hitting super shiftg will open signal. Now this",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/033.png"
     },
     {
       "feature_group": "Dev Environments",
@@ -307,7 +307,7 @@
       "start_s": 483,
       "end_s": 503,
       "transcript_summary": "And of course once it installs hitting super shiftg will open signal. Now this super shiftg will open signal. Now this super shiftg will open signal. Now this is kind of crazy. I love this. Alachi is kind of crazy. I love this. Alachi is kind of crazy. I love this. Alachi makes things like docker fun. So if I makes things like docker fun. So if I makes things like docker fun. So if I hit super key space search for hit super key space search for hit super key space search for development I can install a development development I can install a development development I can install a development environment. Let's say like a environment. Let's say like a environment. Let's say like a dockerbased database like dockerbased database like dockerbased database like my SQL. And suddenly with docker and my SQL. And suddenly with docker and my SQL. And suddenly with docker and compose I'm spinning up an environment. compose I'm spinning up an environment. compose I'm spinning up an environment. And check this out. Super shiftd. I",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/034.png"
     },
     {
       "feature_group": "Dev Environments",
@@ -316,7 +316,7 @@
       "start_s": 503,
       "end_s": 508,
       "transcript_summary": "compose I'm spinning up an environment. And check this out. Super shiftd. I And check this out. Super shiftd. I And check this out. Super shiftd. I think this is running lazy docker. Ah so think this is running lazy docker. Ah so think this is running lazy docker. Ah so good. See everything. Now, what about",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/035.png"
     },
     {
       "feature_group": "Dev Environments",
@@ -325,7 +325,7 @@
       "start_s": 508,
       "end_s": 532,
       "transcript_summary": "think this is running lazy docker. Ah so good. See everything. Now, what about good. See everything. Now, what about good. See everything. Now, what about your IDE? Command shift N. Default is your IDE? Command shift N. Default is your IDE? Command shift N. Default is neov or lazy vim. I don't know the neov or lazy vim. I don't know the neov or lazy vim. I don't know the difference, but you don't have to do difference, but you don't have to do difference, but you don't have to do that. Super key space VS Code. Let's that. Super key space VS Code. Let's that. Super key space VS Code. Let's install it. Installed. And then to make install it. Installed. And then to make install it. Installed. And then to make that our default, super key space. that our default, super key space. that our default, super key space. Search for editor editor defaults Search for editor editor defaults Search for editor editor defaults VS Code. So now command shift N should VS Code. So now command shift N should VS Code. So now command shift N should open up VS Code. Now let's talk open up VS Code. Now let's talk open up VS Code. Now let's talk terminal. Hitting super key enter gets",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/036.png"
     },
     {
       "feature_group": "Terminal & Shell",
@@ -334,7 +334,7 @@
       "start_s": 532,
       "end_s": 560,
       "transcript_summary": "open up VS Code. Now let's talk terminal. Hitting super key enter gets terminal. Hitting super key enter gets terminal. Hitting super key enter gets your terminal up there. But which your terminal up there. But which your terminal up there. But which terminal? If I hit command space, type terminal? If I hit command space, type terminal? If I hit command space, type in terminal, let's see our defaults. in terminal, let's see our defaults. in terminal, let's see our defaults. Foot will be the default. I have ghosty Foot will be the default. I have ghosty Foot will be the default. I have ghosty running right now. You can install running right now. You can install running right now. You can install whatever you want. Make it the default. whatever you want. Make it the default. whatever you want. Make it the default. But check this out. If I do super alt But check this out. If I do super alt But check this out. If I do super alt return, opens up a t-muk session inside return, opens up a t-muk session inside return, opens up a t-muk session inside of my default terminal. But t-mucks is of my default terminal. But t-mucks is of my default terminal. But t-mucks is old news. I'll make a video about that old news. I'll make a video about that old news. I'll make a video about that later. The real hero is super control later. The real hero is super control later. The real hero is super control enter herder. Look at that by default. enter herder. Look at that by default. enter herder. Look at that by default. Now, one thing you'll learn about omachi",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/037.png"
     },
     {
       "feature_group": "Terminal & Shell",
@@ -343,7 +343,7 @@
       "start_s": 560,
       "end_s": 572,
       "transcript_summary": "enter herder. Look at that by default. Now, one thing you'll learn about omachi Now, one thing you'll learn about omachi Now, one thing you'll learn about omachi is that it comes with all the stuff you is that it comes with all the stuff you is that it comes with all the stuff you wouldn't normally want to have and wouldn't normally want to have and wouldn't normally want to have and things you didn't even know you wanted. things you didn't even know you wanted. things you didn't even know you wanted. So, if we open up our terminal again, So, if we open up our terminal again, So, if we open up our terminal again, not command, super key, enter, things not command, super key, enter, things not command, super key, enter, things like fuzzyfinder, FF, you can search for like fuzzyfinder, FF, you can search for like fuzzyfinder, FF, you can search for stuff. Control R for your history. CD is",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/038.png"
     },
     {
       "feature_group": "Terminal & Shell",
@@ -352,7 +352,7 @@
       "start_s": 572,
       "end_s": 575,
       "transcript_summary": "like fuzzyfinder, FF, you can search for stuff. Control R for your history. CD is stuff. Control R for your history. CD is stuff. Control R for your history. CD is actually Zoxide, so you don't have to",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/039.png"
     },
     {
       "feature_group": "Terminal & Shell",
@@ -361,7 +361,7 @@
       "start_s": 575,
       "end_s": 594,
       "transcript_summary": "stuff. Control R for your history. CD is actually Zoxide, so you don't have to actually Zoxide, so you don't have to actually Zoxide, so you don't have to complete your commands. It'll remember complete your commands. It'll remember complete your commands. It'll remember stuff. You get RG, RG, FD, BAT. Also, stuff. You get RG, RG, FD, BAT. Also, stuff. You get RG, RG, FD, BAT. Also, LS, LT, and LSA are all Exa. And if LS, LT, and LSA are all Exa. And if LS, LT, and LSA are all Exa. And if you're like, Chuck, I have no idea what you're like, Chuck, I have no idea what you're like, Chuck, I have no idea what the junk you're talking about. I have a the junk you're talking about. I have a the junk you're talking about. I have a Linux commands video that explains all Linux commands video that explains all Linux commands video that explains all of that, but it's cool. It's all built of that, but it's cool. It's all built of that, but it's cool. It's all built in here.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/040.png"
     },
     {
       "feature_group": "System & Updates",
@@ -370,7 +370,7 @@
       "start_s": 594,
       "end_s": 630,
       "transcript_summary": "of that, but it's cool. It's all built in here. Updating. You got to update your stuff. Updating. You got to update your stuff. AI makes this easy. Super key space AI makes this easy. Super key space AI makes this easy. Super key space update. You actually have a ton of update. You actually have a ton of update. You actually have a ton of options. If we choose our channel, we options. If we choose our channel, we options. If we choose our channel, we can choose like, hey, do you want to be can choose like, hey, do you want to be can choose like, hey, do you want to be on stable? Do you want to actually work? on stable? Do you want to actually work? on stable? Do you want to actually work? Or do you want to be on more on the Or do you want to be on more on the Or do you want to be on more on the cutting edge? No, I like stable. Thank cutting edge? No, I like stable. Thank cutting edge? No, I like stable. Thank you. Let's choose updating Omachi. Is you. Let's choose updating Omachi. Is you. Let's choose updating Omachi. Is there an update? Yeah, let's update. there an update? Yeah, let's update. there an update? Yeah, let's update. Updating live on camera. Nothing bad has Updating live on camera. Nothing bad has Updating live on camera. Nothing bad has ever happened from that. Now, as we're ever happened from that. Now, as we're ever happened from that. Now, as we're updating, just know that Omachi is a updating, just know that Omachi is a updating, just know that Omachi is a month behind the cutting edge Arch month behind the cutting edge Arch month behind the cutting edge Arch updates on purpose to make sure they vet updates on purpose to make sure they vet updates on purpose to make sure they vet everything that in making sure it won't everything that in making sure it won't everything that in making sure it won't break your stuff. I like that. I think break your stuff. I like that. I think break your stuff. I like that. I think I'm up to date. Remove two orphan I'm up to date. Remove two orphan I'm up to date. Remove two orphan packages. Okay, actually, no. I want to",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/041.png"
     },
     {
       "feature_group": "System & Updates",
@@ -379,7 +379,7 @@
       "start_s": 630,
       "end_s": 652,
       "transcript_summary": "I'm up to date. Remove two orphan packages. Okay, actually, no. I want to packages. Okay, actually, no. I want to packages. Okay, actually, no. I want to keep those. Every single time you do an keep those. Every single time you do an keep those. Every single time you do an update, it takes a snapshot, takes a update, it takes a snapshot, takes a update, it takes a snapshot, takes a backup because we're on the turfs btrfs. backup because we're on the turfs btrfs. backup because we're on the turfs btrfs. It's a file system. We can actually do It's a file system. We can actually do It's a file system. We can actually do our own versions of that. Go to terminal our own versions of that. Go to terminal our own versions of that. Go to terminal snapshot snapshot snapshot create. We can actually boot into that create. We can actually boot into that create. We can actually boot into that snapshot. How sick is that? That was so snapshot. How sick is that? That was so snapshot. How sick is that? That was so fast. Do we have a hotkey for that, too? fast. Do we have a hotkey for that, too? fast. Do we have a hotkey for that, too? No, that was command line only. Now, No, that was command line only. Now, No, that was command line only. Now, this one's more of an FYI because as",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/042.png"
     },
     {
       "feature_group": "System & Security",
@@ -388,7 +388,7 @@
       "start_s": 652,
       "end_s": 675,
       "transcript_summary": "No, that was command line only. Now, this one's more of an FYI because as this one's more of an FYI because as this one's more of an FYI because as you're updating things on in Omachi, you you're updating things on in Omachi, you you're updating things on in Omachi, you need to know what config files are yours need to know what config files are yours need to know what config files are yours and won't be touched on updates. So, if and won't be touched on updates. So, if and won't be touched on updates. So, if we get to our terminal, super key, enter we get to our terminal, super key, enter we get to our terminal, super key, enter everything here and doconfig, that's everything here and doconfig, that's everything here and doconfig, that's yours and it will not be touched. Same yours and it will not be touched. Same yours and it will not be touched. Same thing goes for bash rc. However, if you thing goes for bash rc. However, if you thing goes for bash rc. However, if you do omachi reinstall or reinstall do omachi reinstall or reinstall do omachi reinstall or reinstall configs, that will overwrite your stuff. configs, that will overwrite your stuff. configs, that will overwrite your stuff. Speaking of overwriting your stuff, Speaking of overwriting your stuff, Speaking of overwriting your stuff, let's talk about security. What security",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/043.png"
     },
     {
       "feature_group": "System & Security",
@@ -397,7 +397,7 @@
       "start_s": 675,
       "end_s": 695,
       "transcript_summary": "Speaking of overwriting your stuff, let's talk about security. What security let's talk about security. What security let's talk about security. What security do you have? Full disc encryption is do you have? Full disc encryption is do you have? Full disc encryption is mandatory. Firewall is default deny mandatory. Firewall is default deny mandatory. Firewall is default deny except for one thing. It's called local except for one thing. It's called local except for one thing. It's called local send. You're going to love that. We'll send. You're going to love that. We'll send. You're going to love that. We'll talk about that here in a second. talk about that here in a second. talk about that here in a second. Actually, SSH is off. If we do super key Actually, SSH is off. If we do super key Actually, SSH is off. If we do super key space, search for SSH. It's off by space, search for SSH. It's off by space, search for SSH. It's off by default. Oh, wait. I think we just default. Oh, wait. I think we just default. Oh, wait. I think we just enabled it. H I don't want to do it. enabled it. H I don't want to do it. enabled it. H I don't want to do it. Leave me alone. And if we do super key",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/044.png"
     },
     {
       "feature_group": "System & Security",
@@ -406,7 +406,7 @@
       "start_s": 695,
       "end_s": 701,
       "transcript_summary": "enabled it. H I don't want to do it. Leave me alone. And if we do super key Leave me alone. And if we do super key Leave me alone. And if we do super key space, type in password. You can update space, type in password. You can update space, type in password. You can update either your drive encryption password or either your drive encryption password or either your drive encryption password or your user password. Super control L will",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/045.png"
     },
     {
       "feature_group": "System & Security",
@@ -415,7 +415,7 @@
       "start_s": 701,
       "end_s": 706,
       "transcript_summary": "either your drive encryption password or your user password. Super control L will your user password. Super control L will your user password. Super control L will lock your screen. Let's get back in. lock your screen. Let's get back in. lock your screen. Let's get back in. Now, one thing you're going to love is",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/046.png"
     },
     {
       "feature_group": "System & Security",
@@ -424,7 +424,7 @@
       "start_s": 706,
       "end_s": 733,
       "transcript_summary": "lock your screen. Let's get back in. lock your screen. Let's get back in. Now, one thing you're going to love is Now, one thing you're going to love is Now, one thing you're going to love is pseudo with your finger. Check this out. pseudo with your finger. Check this out. pseudo with your finger. Check this out. Superspace pseudo passwordless pseudo. Superspace pseudo passwordless pseudo. Superspace pseudo passwordless pseudo. And you can set it up with your finger And you can set it up with your finger And you can set it up with your finger if you have a fingerprint reader. Now, if you have a fingerprint reader. Now, if you have a fingerprint reader. Now, I've already done this. Leave me alone. I've already done this. Leave me alone. I've already done this. Leave me alone. So, if I do something like this, pseudo So, if I do something like this, pseudo So, if I do something like this, pseudo anything daytime finger. Here we go. I anything daytime finger. Here we go. I anything daytime finger. Here we go. I don't know. Let me do it the right way. don't know. Let me do it the right way. don't know. Let me do it the right way. Doesn't have datetime command. Point is, Doesn't have datetime command. Point is, Doesn't have datetime command. Point is, it works. Pseudo finger works. Now, time it works. Pseudo finger works. Now, time it works. Pseudo finger works. Now, time for the toggles. Super control O is all",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/047.png"
     },
     {
       "feature_group": "Toggles & Aesthetics",
@@ -433,7 +433,7 @@
       "start_s": 733,
       "end_s": 744,
       "transcript_summary": "it works. Pseudo finger works. Now, time for the toggles. Super control O is all for the toggles. Super control O is all for the toggles. Super control O is all your toggles, your toggle menu. Stay your toggles, your toggle menu. Stay your toggles, your toggle menu. Stay awake, I think, is the caffeinate awake, I think, is the caffeinate awake, I think, is the caffeinate command, right? You trigger it off. You command, right? You trigger it off. You command, right? You trigger it off. You can actually access it up here in your can actually access it up here in your can actually access it up here in your little bar, your quick shell bar. Super",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/048.png"
     },
     {
       "feature_group": "Toggles & Aesthetics",
@@ -442,7 +442,7 @@
       "start_s": 744,
       "end_s": 749,
       "transcript_summary": "can actually access it up here in your little bar, your quick shell bar. Super little bar, your quick shell bar. Super little bar, your quick shell bar. Super control N goes into nightlight mode. control N goes into nightlight mode. control N goes into nightlight mode. Ooh, that's nice. Love that. Super shift",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/049.png"
     },
     {
       "feature_group": "Toggles & Aesthetics",
@@ -451,7 +451,7 @@
       "start_s": 749,
       "end_s": 755,
       "transcript_summary": "control N goes into nightlight mode. Ooh, that's nice. Love that. Super shift Ooh, that's nice. Love that. Super shift Ooh, that's nice. Love that. Super shift space will hide your quick bar.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/050.png"
     },
     {
       "feature_group": "Toggles & Aesthetics",
@@ -460,7 +460,7 @@
       "start_s": 755,
       "end_s": 767,
       "transcript_summary": "Ooh, that's nice. Love that. Super shift space will hide your quick bar. space will hide your quick bar. space will hide your quick bar. that. that. that. It's kind of fun. And then super escape. It's kind of fun. And then super escape. It's kind of fun. And then super escape. We can do our screen saver, We can do our screen saver, We can do our screen saver, which is so fun. I bet you're wondering,",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/051.png"
     },
     {
       "feature_group": "Toggles & Aesthetics",
@@ -469,7 +469,7 @@
       "start_s": 767,
       "end_s": 780,
       "transcript_summary": "We can do our screen saver, which is so fun. I bet you're wondering, which is so fun. I bet you're wondering, which is so fun. I bet you're wondering, how do you do this? I'll show you in a how do you do this? I'll show you in a how do you do this? I'll show you in a second. Now watch this. Super shift second. Now watch this. Super shift second. Now watch this. Super shift backspace. Whoa, look at that. They backspace. Whoa, look at that. They backspace. Whoa, look at that. They filled in the gaps in the borders filled in the gaps in the borders filled in the gaps in the borders vanished. Let's do it again. Super shift vanished. Let's do it again. Super shift vanished. Let's do it again. Super shift backspace. We got some space again. I backspace. We got some space again. I backspace. We got some space again. I prefer that actually. Now, let's talk",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/052.png"
     },
     {
       "feature_group": "Networking",
@@ -478,7 +478,7 @@
       "start_s": 780,
       "end_s": 816,
       "transcript_summary": "backspace. We got some space again. I prefer that actually. Now, let's talk prefer that actually. Now, let's talk prefer that actually. Now, let's talk networking. Super control W gets our networking. Super control W gets our networking. Super control W gets our network panel. And look at this gorgeous network panel. And look at this gorgeous network panel. And look at this gorgeous network panel. You can change your DNS network panel. You can change your DNS network panel. You can change your DNS providers right in here. You can providers right in here. You can providers right in here. You can override your DHCP and go straight override your DHCP and go straight override your DHCP and go straight Cloudflare, but I don't want to do that. Cloudflare, but I don't want to do that. Cloudflare, but I don't want to do that. Going back to DHCP, you can do a speed Going back to DHCP, you can do a speed Going back to DHCP, you can do a speed test right from here. test right from here. test right from here. Let's see what I'm clocking here. Let's see what I'm clocking here. Let's see what I'm clocking here. That should be higher. You can share That should be higher. You can share That should be higher. You can share your Wi-Fi with a QR code, which is just your Wi-Fi with a QR code, which is just your Wi-Fi with a QR code, which is just incredibly handy. What happened? Why incredibly handy. What happened? Why incredibly handy. What happened? Why won't it share my QR code? It did it won't it share my QR code? It did it won't it share my QR code? It did it before. Oh, it wants me to restart before. Oh, it wants me to restart before. Oh, it wants me to restart network manager, which we can do later. network manager, which we can do later. network manager, which we can do later. I know it's in my list somewhere that I know it's in my list somewhere that I know it's in my list somewhere that you can do some fun things via command",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/053.png"
     },
     {
       "feature_group": "Networking",
@@ -487,7 +487,7 @@
       "start_s": 816,
       "end_s": 828,
       "transcript_summary": "I know it's in my list somewhere that you can do some fun things via command you can do some fun things via command you can do some fun things via command line, too. For your network, like Omachi line, too. For your network, like Omachi line, too. For your network, like Omachi network band, you can choose your network band, you can choose your network band, you can choose your network band just from the command line. network band just from the command line. network band just from the command line. That's so cool. I knew we were going to That's so cool. I knew we were going to That's so cool. I knew we were going to do it soon. We're talking about",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/054.png"
     },
     {
       "feature_group": "Hardware Management",
@@ -496,7 +496,7 @@
       "start_s": 828,
       "end_s": 850,
       "transcript_summary": "That's so cool. I knew we were going to do it soon. We're talking about do it soon. We're talking about do it soon. We're talking about rebooting things that you don't have to rebooting things that you don't have to rebooting things that you don't have to reboot for. What? You don't have to reboot for. What? You don't have to reboot for. What? You don't have to reboot when things aren't quite working. reboot when things aren't quite working. reboot when things aren't quite working. You can reboot things individually. You can reboot things individually. You can reboot things individually. Individually. things like Wi-Fi, Individually. things like Wi-Fi, Individually. things like Wi-Fi, Bluetooth, audio, trackpad. Each thing Bluetooth, audio, trackpad. Each thing Bluetooth, audio, trackpad. Each thing can be restarted. How do we do that? can be restarted. How do we do that? can be restarted. How do we do that? Super key space. Type in hardware. Click Super key space. Type in hardware. Click Super key space. Type in hardware. Click on update. And you can click on any of on update. And you can click on any of on update. And you can click on any of these to have them restarted. Let's do these to have them restarted. Let's do these to have them restarted. Let's do Bluetooth. Bluetooth was restarted. Bluetooth. Bluetooth was restarted. Bluetooth. Bluetooth was restarted. Ain't that sick? I like that. This one I",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/055.png"
     },
     {
       "feature_group": "Hardware Management",
@@ -505,7 +505,7 @@
       "start_s": 850,
       "end_s": 876,
       "transcript_summary": "Bluetooth. Bluetooth was restarted. Ain't that sick? I like that. This one I Ain't that sick? I like that. This one I Ain't that sick? I like that. This one I stinking love. If I open up my terminal stinking love. If I open up my terminal stinking love. If I open up my terminal and SSH into one of my host, I'm logged and SSH into one of my host, I'm logged and SSH into one of my host, I'm logged in. It's my Mac Studio. But what if I in. It's my Mac Studio. But what if I in. It's my Mac Studio. But what if I disconnect? Let's turn off Wi-Fi right disconnect? Let's turn off Wi-Fi right disconnect? Let's turn off Wi-Fi right there. This should be dead in the water. there. This should be dead in the water. there. This should be dead in the water. But if I turn Wi-Fi back on, my session But if I turn Wi-Fi back on, my session But if I turn Wi-Fi back on, my session is persistent. I love that. I noticed is persistent. I love that. I noticed is persistent. I love that. I noticed that by accident, by the way, as I was that by accident, by the way, as I was that by accident, by the way, as I was just closing my laptop and reopening. just closing my laptop and reopening. just closing my laptop and reopening. I'm like, \"Oh, how am I still connected",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/056.png"
     },
     {
       "feature_group": "Hardware Management",
@@ -514,7 +514,7 @@
       "start_s": 876,
       "end_s": 903,
       "transcript_summary": "just closing my laptop and reopening. I'm like, \"Oh, how am I still connected I'm like, \"Oh, how am I still connected I'm like, \"Oh, how am I still connected to my stuff?\" We do have a nice little to my stuff?\" We do have a nice little to my stuff?\" We do have a nice little menu for our battery, where it's at, menu for our battery, where it's at, menu for our battery, where it's at, what's happening. We can change what's happening. We can change what's happening. We can change performance, balance, power saver. These performance, balance, power saver. These performance, balance, power saver. These are our power profiles, but you can also are our power profiles, but you can also are our power profiles, but you can also with Omachi set profiles based on if with Omachi set profiles based on if with Omachi set profiles based on if you're plugged in or not. Similar to you're plugged in or not. Similar to you're plugged in or not. Similar to other oss, but it's kind of cool here. other oss, but it's kind of cool here. other oss, but it's kind of cool here. But we can also set power profiles based But we can also set power profiles based But we can also set power profiles based on like, okay, when I'm on battery, what on like, okay, when I'm on battery, what on like, okay, when I'm on battery, what do I want it to be? Let's be balanced. do I want it to be? Let's be balanced. do I want it to be? Let's be balanced. So, right now I'm plugged in. I'm going So, right now I'm plugged in. I'm going So, right now I'm plugged in. I'm going to unplug and see what happens. Boom. to unplug and see what happens. Boom. to unplug and see what happens. Boom. Went to balanced. We plugged back in. Went to balanced. We plugged back in. Went to balanced. We plugged back in. What happens? Back on performance. Now,",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/057.png"
     },
     {
       "feature_group": "System Monitoring",
@@ -523,7 +523,7 @@
       "start_s": 903,
       "end_s": 923,
       "transcript_summary": "Went to balanced. We plugged back in. What happens? Back on performance. Now, What happens? Back on performance. Now, What happens? Back on performance. Now, what's your system up to? Super. Control what's your system up to? Super. Control what's your system up to? Super. Control T Btop. Isn't that gorgeous? Now, by T Btop. Isn't that gorgeous? Now, by T Btop. Isn't that gorgeous? Now, by default, it opens up floating. We can do default, it opens up floating. We can do default, it opens up floating. We can do command. Not command. It's going to take command. Not command. It's going to take command. Not command. It's going to take forever for me to remember how to say forever for me to remember how to say forever for me to remember how to say this. Super T make it tiled again or this. Super T make it tiled again or this. Super T make it tiled again or super T again to make it float again. super T again to make it float again. super T again to make it float again. Now screenshots. Super key space",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/058.png"
     },
     {
       "feature_group": "Media & Screen Tools",
@@ -532,7 +532,7 @@
       "start_s": 923,
       "end_s": 935,
       "transcript_summary": "super T again to make it float again. Now screenshots. Super key space Now screenshots. Super key space Now screenshots. Super key space screenshot freezes the screen. screenshot freezes the screen. screenshot freezes the screen. I can move around and choose which I can move around and choose which I can move around and choose which window I want to capture, which is window I want to capture, which is window I want to capture, which is pretty cool. Let's just capture this pretty cool. Let's just capture this pretty cool. Let's just capture this window here. Got it. Saved to clipboard.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/059.png"
     },
     {
       "feature_group": "Media & Screen Tools",
@@ -541,7 +541,7 @@
       "start_s": 935,
       "end_s": 968,
       "transcript_summary": "pretty cool. Let's just capture this window here. Got it. Saved to clipboard. window here. Got it. Saved to clipboard. window here. Got it. Saved to clipboard. We can also record our screen We can also record our screen We can also record our screen with all of our options. I got to try it with all of our options. I got to try it with all of our options. I got to try it with the webcam. I'm going to have to with the webcam. I'm going to have to with the webcam. I'm going to have to bust this sucker out. There's the bust this sucker out. There's the bust this sucker out. There's the webcam. Why is it so tiny? Okay, super webcam. Why is it so tiny? Okay, super webcam. Why is it so tiny? Okay, super alt open and closing brackets adjust the alt open and closing brackets adjust the alt open and closing brackets adjust the webcam but only so much. And it's webcam but only so much. And it's webcam but only so much. And it's recording right now at 60 frames per recording right now at 60 frames per recording right now at 60 frames per second. That's pretty sick. How do I second. That's pretty sick. How do I second. That's pretty sick. How do I stop it? Oh, I think it already stopped. stop it? Oh, I think it already stopped. stop it? Oh, I think it already stopped. Screen recording saved. Let's watch it. Screen recording saved. Let's watch it. Screen recording saved. Let's watch it. That's pretty cool. That's nifty. I mean That's pretty cool. That's nifty. I mean That's pretty cool. That's nifty. I mean to be able to do that just like just to be able to do that just like just to be able to do that just like just boom without OBS or anything. That's boom without OBS or anything. That's boom without OBS or anything. That's cool. Check this out. Super alt print",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/060.png"
     },
     {
       "feature_group": "Media & Screen Tools",
@@ -550,7 +550,7 @@
       "start_s": 968,
       "end_s": 981,
       "transcript_summary": "boom without OBS or anything. That's cool. Check this out. Super alt print cool. Check this out. Super alt print cool. Check this out. Super alt print screen will allow me to select anything screen will allow me to select anything screen will allow me to select anything from anything like this image here. I'm from anything like this image here. I'm from anything like this image here. I'm going to select it and it will OCR it to going to select it and it will OCR it to going to select it and it will OCR it to our clipboard. Super V. There it is. our clipboard. Super V. There it is. our clipboard. Super V. There it is. That's so cool. Now, this one I haven't",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/061.png"
     },
     {
       "feature_group": "Media & Screen Tools",
@@ -559,7 +559,7 @@
       "start_s": 981,
       "end_s": 999,
       "transcript_summary": "our clipboard. Super V. There it is. That's so cool. Now, this one I haven't That's so cool. Now, this one I haven't That's so cool. Now, this one I haven't tried it yet. I want to see if it works. tried it yet. I want to see if it works. tried it yet. I want to see if it works. But check this out. Super key space QR. But check this out. Super key space QR. But check this out. Super key space QR. We can actually capture from our screen We can actually capture from our screen We can actually capture from our screen a QR code. QR code copied to clipboard. a QR code. QR code copied to clipboard. a QR code. QR code copied to clipboard. Let's see what it is. Super V. It did Let's see what it is. Super V. It did Let's see what it is. Super V. It did it. That's pretty cool. I hate having to it. That's pretty cool. I hate having to it. That's pretty cool. I hate having to get my phone out to, you know, the whole",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/062.png"
     },
     {
       "feature_group": "Media & Screen Tools",
@@ -568,7 +568,7 @@
       "start_s": 999,
       "end_s": 1023,
       "transcript_summary": "it. That's pretty cool. I hate having to get my phone out to, you know, the whole get my phone out to, you know, the whole get my phone out to, you know, the whole thing. That's That's nice. Check this thing. That's That's nice. Check this thing. That's That's nice. Check this out. Superspace transcode. I can pick a out. Superspace transcode. I can pick a out. Superspace transcode. I can pick a file like the one we just did. And let's file like the one we just did. And let's file like the one we just did. And let's make it a make it a smaller MP4 or a make it a make it a smaller MP4 or a make it a make it a smaller MP4 or a GIF. 4K GIF. Transcoding. Let's make GIF. 4K GIF. Transcoding. Let's make GIF. 4K GIF. Transcoding. Let's make that whole thing a GIF. Oh, yeah. It that whole thing a GIF. Oh, yeah. It that whole thing a GIF. Oh, yeah. It made a whole freaking GIF out of that. made a whole freaking GIF out of that. made a whole freaking GIF out of that. But you could have transcoded it to a But you could have transcoded it to a But you could have transcoded it to a smaller file. You got it. And that's smaller file. You got it. And that's smaller file. You got it. And that's cool, right? So, you can shrink a video cool, right? So, you can shrink a video cool, right? So, you can shrink a video file before you share it. Now, this is",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/063.png"
     },
     {
       "feature_group": "Disk Utilities",
@@ -577,7 +577,7 @@
       "start_s": 1023,
       "end_s": 1053,
       "transcript_summary": "cool, right? So, you can shrink a video file before you share it. Now, this is file before you share it. Now, this is file before you share it. Now, this is crazy handy. Let's go to a clean space. crazy handy. Let's go to a clean space. crazy handy. Let's go to a clean space. Super space. We'll search for disk Super space. We'll search for disk Super space. We'll search for disk usage. We can very quickly see what's usage. We can very quickly see what's usage. We can very quickly see what's taking up the most space on our system. taking up the most space on our system. taking up the most space on our system. I got something in home my home I got something in home my home I got something in home my home directory. It's O Lama. There's a model directory. It's O Lama. There's a model directory. It's O Lama. There's a model in there. But see how easy it was to in there. But see how easy it was to in there. But see how easy it was to drill down into that. Oh, love it. I'm drill down into that. Oh, love it. I'm drill down into that. Oh, love it. I'm using backspace to go back. Um, I'll using backspace to go back. Um, I'll using backspace to go back. Um, I'll delete something random here. I just tab delete something random here. I just tab delete something random here. I just tab over to get into there and then CtrlT to over to get into there and then CtrlT to over to get into there and then CtrlT to trash or controlr to delete. R. And that",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/064.png"
     },
     {
       "feature_group": "AI & Productivity",
@@ -586,7 +586,7 @@
       "start_s": 1053,
       "end_s": 1140,
       "transcript_summary": "over to get into there and then CtrlT to trash or controlr to delete. R. And that trash or controlr to delete. R. And that trash or controlr to delete. R. And that did it. That's pretty cool. Now, this did it. That's pretty cool. Now, this did it. That's pretty cool. Now, this one's actually pretty sweet because I one's actually pretty sweet because I one's actually pretty sweet because I love Whisper Flow. They don't have a love Whisper Flow. They don't have a love Whisper Flow. They don't have a Linux app, but they do have an option Linux app, but they do have an option Linux app, but they do have an option for us here in Omachi. And it's all for us here in Omachi. And it's all for us here in Omachi. And it's all local. You don't need any cloud local. You don't need any cloud local. You don't need any cloud subscription or anything. Check this subscription or anything. Check this subscription or anything. Check this out. It's called Vox type. And once you out. It's called Vox type. And once you out. It's called Vox type. And once you go through and set it up, you're going go through and set it up, you're going go through and set it up, you're going to have to download a a local model. to have to download a a local model. to have to download a a local model. It'll take you take you through setup. It'll take you take you through setup. It'll take you take you through setup. It'll do it. If you do like uh in your It'll do it. If you do like uh in your It'll do it. If you do like uh in your terminal, you do omachi vox type and terminal, you do omachi vox type and terminal, you do omachi vox type and just go through install and then config. just go through install and then config. just go through install and then config. You can get all your stuff going. Write You can get all your stuff going. Write You can get all your stuff going. Write control. Check it out. I'm doing local control. Check it out. I'm doing local control. Check it out. I'm doing local AI transcription. Look at that. That's AI transcription. Look at that. That's AI transcription. Look at that. That's so cool. Oh, nothing touching the cloud so cool. Oh, nothing touching the cloud so cool. Oh, nothing touching the cloud on that. No, watch this. This is kind of on that. No, watch this. This is kind of on that. No, watch this. This is kind of annoying. annoying. annoying. Omachi. Let me try it again. Omachi. Omachi. Let me try it again. Omachi. Omachi. Let me try it again. Omachi. It's different every time, dude. It's different every time, dude. It's different every time, dude. Network Chuck. See, every one of these Network Chuck. See, every one of these Network Chuck. See, every one of these is wrong. I don't like a space between is wrong. I don't like a space between is wrong. I don't like a space between my name. Check this out. We'll open up my name. Check this out. We'll open up my name. Check this out. We'll open up this config file. Find the text section, this config file. Find the text section, this config file. Find the text section, which is right here. And we'll add in which is right here. And we'll add in which is right here. And we'll add in our replacements. And what were they? We our replacements. And what were they? We our replacements. And what were they? We need neverchuck need neverchuck need neverchuck equals network chuck. And I'll add all equals network chuck. And I'll add all equals network chuck. And I'll add all of them right now. Even the network of them right now. Even the network of them right now. Even the network chunky. chunky. chunky. That's so insulting. Okay, let's try That's so insulting. Okay, let's try That's so insulting. Okay, let's try this. Network chuck. It did it. Okay. I this. Network chuck. It did it. Okay. I this. Network chuck. It did it. Okay. I also did the word orange. So when it also did the word orange. So when it also did the word orange. So when it says orange, it should come out as says orange, it should come out as says orange, it should come out as omachi orange.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/065.png"
     },
     {
       "feature_group": "File Sharing",
@@ -595,7 +595,7 @@
       "start_s": 1140,
       "end_s": 1210,
       "transcript_summary": "says orange, it should come out as omachi orange. This one I accidentally found when This one I accidentally found when trying to record my other Omachi video. trying to record my other Omachi video. trying to record my other Omachi video. Oh, local send. Oh my gosh, check this Oh, local send. Oh my gosh, check this Oh, local send. Oh my gosh, check this out. Super controls. You can send out. Super controls. You can send out. Super controls. You can send anything you stinking want. This is like anything you stinking want. This is like anything you stinking want. This is like AirDrop for AirDrop for AirDrop for everything. So, I'm going to share a everything. So, I'm going to share a everything. So, I'm going to share a file. Um, how about that GIF we did file. Um, how about that GIF we did file. Um, how about that GIF we did earlier? Yeah, let's share that. 150 earlier? Yeah, let's share that. 150 earlier? Yeah, let's share that. 150 megs. Yikes. It's bigger than the megs. Yikes. It's bigger than the megs. Yikes. It's bigger than the original file. original file. original file. Let's What do you say we transcode that Let's What do you say we transcode that Let's What do you say we transcode that to something smaller? 720p. It's doing to something smaller? 720p. It's doing to something smaller? 720p. It's doing it in real time. This is so fun. Done. it in real time. This is so fun. Done. it in real time. This is so fun. Done. Made that file smaller. DID YOU SEE HOW Made that file smaller. DID YOU SEE HOW Made that file smaller. DID YOU SEE HOW FAST THAT WAS? All right. We're going to FAST THAT WAS? All right. We're going to FAST THAT WAS? All right. We're going to share that file. And I can just share it share that file. And I can just share it share that file. And I can just share it with nearby devices. So, I'm going to with nearby devices. So, I'm going to with nearby devices. So, I'm going to actually scoot this over. All keyboard, actually scoot this over. All keyboard, actually scoot this over. All keyboard, baby. I choose my send mode, which I'll baby. I choose my send mode, which I'll baby. I choose my send mode, which I'll do um share via link. And I'll do a QR do um share via link. And I'll do a QR do um share via link. And I'll do a QR code. code. code. Grab my phone. Pending request. You can Grab my phone. Pending request. You can Grab my phone. Pending request. You can see it right there. and I'll say, \"Yeah, see it right there. and I'll say, \"Yeah, see it right there. and I'll say, \"Yeah, go ahead and send it to them.\" And I go ahead and send it to them.\" And I go ahead and send it to them.\" And I already have it. I'm downloading it now. already have it. I'm downloading it now. already have it. I'm downloading it now. And there it is. And there it is. And there it is. &gt;&gt; Isn't that sick? Like, they completely &gt;&gt; Isn't that sick? Like, they completely &gt;&gt; Isn't that sick? Like, they completely solved the whole AirDrop thing. It's solved the whole AirDrop thing. It's solved the whole AirDrop thing. It's It's They made it so easy. I love it. I",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/066.png"
     },
     {
       "feature_group": "File Sharing",
@@ -604,7 +604,7 @@
       "start_s": 1210,
       "end_s": 1220,
       "transcript_summary": "solved the whole AirDrop thing. It's It's They made it so easy. I love it. I It's They made it so easy. I love it. I It's They made it so easy. I love it. I love it so much. But like, check this love it so much. But like, check this love it so much. But like, check this out. If I were in a terminal, omachi out. If I were in a terminal, omachi out. If I were in a terminal, omachi share clipboard and I can just share share clipboard and I can just share share clipboard and I can just share what's whatever's on my clipboard very what's whatever's on my clipboard very what's whatever's on my clipboard very quickly. Like, I love that. Now, this is",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/067.png"
     },
     {
       "feature_group": "Utilities",
@@ -613,7 +613,7 @@
       "start_s": 1220,
       "end_s": 1242,
       "transcript_summary": "what's whatever's on my clipboard very quickly. Like, I love that. Now, this is quickly. Like, I love that. Now, this is quickly. Like, I love that. Now, this is fun. In omachi, caps lock is your quick fun. In omachi, caps lock is your quick fun. In omachi, caps lock is your quick way to do emojis. And I'm actually new way to do emojis. And I'm actually new way to do emojis. And I'm actually new to this. So if I hit caps lock M, I can to this. So if I hit caps lock M, I can to this. So if I hit caps lock M, I can do things like do things like do things like S for smile. Caps lock M for O for okay. S for smile. Caps lock M for O for okay. S for smile. Caps lock M for O for okay. Caps lock M1 for 100. Just a quick way Caps lock M1 for 100. Just a quick way Caps lock M1 for 100. Just a quick way to use emojis because that's how we to use emojis because that's how we to use emojis because that's how we talk. It's kind of neat. AI also has",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/068.png"
     },
     {
       "feature_group": "Utilities",
@@ -622,7 +622,7 @@
       "start_s": 1242,
       "end_s": 1258,
       "transcript_summary": "to use emojis because that's how we talk. It's kind of neat. AI also has talk. It's kind of neat. AI also has talk. It's kind of neat. AI also has built-in reminders. Super control R. How built-in reminders. Super control R. How built-in reminders. Super control R. How many minutes? Five. No.5. many minutes? Five. No.5. many minutes? Five. No.5. Can only do one minute. Take a sip of Can only do one minute. Take a sip of Can only do one minute. Take a sip of coffee. Boom. Going to wait for it. coffee. Boom. Going to wait for it. coffee. Boom. Going to wait for it. Actually, no. I'll let it remind me.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/069.png"
     },
     {
       "feature_group": "Media Utilities",
@@ -631,7 +631,7 @@
       "start_s": 1258,
       "end_s": 1307,
       "transcript_summary": "coffee. Boom. Going to wait for it. Actually, no. I'll let it remind me. Actually, no. I'll let it remind me. Actually, no. I'll let it remind me. This one. I haven't tested this, but I This one. I haven't tested this, but I This one. I haven't tested this, but I really am excited to try it. Okay, so really am excited to try it. Okay, so really am excited to try it. Okay, so apparently alt shift D will download the apparently alt shift D will download the apparently alt shift D will download the current video I'm watching to the current video I'm watching to the current video I'm watching to the downloads folder. Is that true? downloads folder. Is that true? downloads folder. Is that true? Reminder, take a sip of coffee. Thanks, Reminder, take a sip of coffee. Thanks, Reminder, take a sip of coffee. Thanks, buddy. No, I'm going to try this. I'm buddy. No, I'm going to try this. I'm buddy. No, I'm going to try this. I'm not sure if this works. I'm going to not sure if this works. I'm going to not sure if this works. I'm going to open up their Chromium browser. It has open up their Chromium browser. It has open up their Chromium browser. It has to be in this. Just go into a page that to be in this. Just go into a page that to be in this. Just go into a page that has a video on it. We'll play said video has a video on it. We'll play said video has a video on it. We'll play said video with it muted. Uh, let's go to YouTube. with it muted. Uh, let's go to YouTube. with it muted. Uh, let's go to YouTube. We'll do alt shift D. It's downloading. We'll do alt shift D. It's downloading. We'll do alt shift D. It's downloading. Look at that. It's downloading this Look at that. It's downloading this Look at that. It's downloading this video. video. video. Should have chose a smaller one. Do this Should have chose a smaller one. Do this Should have chose a smaller one. Do this to this video. Just I'm I am giving you to this video. Just I'm I am giving you to this video. Just I'm I am giving you permission. I'm not saying YouTube is permission. I'm not saying YouTube is permission. I'm not saying YouTube is giving you permission. I don't mind if giving you permission. I don't mind if giving you permission. I don't mind if you do it for my content. So, I'm going you do it for my content. So, I'm going you do it for my content. So, I'm going to close my browser. Uh, let's go to our to close my browser. Uh, let's go to our to close my browser. Uh, let's go to our terminal. Supposed to download it here. terminal. Supposed to download it here. terminal. Supposed to download it here. There it is. I can also do this kind of",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/070.png"
     },
     {
       "feature_group": "Media Utilities",
@@ -640,7 +640,7 @@
       "start_s": 1307,
       "end_s": 1340,
       "transcript_summary": "terminal. Supposed to download it here. There it is. I can also do this kind of There it is. I can also do this kind of There it is. I can also do this kind of weird thing. There's a thing called weird thing. There's a thing called weird thing. There's a thing called omacut. Okay, let's say I like wanted to, you Okay, let's say I like wanted to, you know, remove the beginning and then like know, remove the beginning and then like know, remove the beginning and then like remove the end remove the end remove the end and then export and then export and then export and save it. and save it. and save it. Dude, that's so cool. But it's exporting Dude, that's so cool. But it's exporting Dude, that's so cool. But it's exporting really slow because I don't think my really slow because I don't think my really slow because I don't think my laptop has a GPU. I'm gonna let it cook. laptop has a GPU. I'm gonna let it cook. laptop has a GPU. I'm gonna let it cook. Actually, I'm going to let it die. We'll Actually, I'm going to let it die. We'll Actually, I'm going to let it die. We'll quit. That's cool, though. Using Omachi quit. That's cool, though. Using Omachi quit. That's cool, though. Using Omachi is like uncovering little treasures,",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/071.png"
     },
     {
       "feature_group": "Built-in Apps",
@@ -649,7 +649,7 @@
       "start_s": 1340,
       "end_s": 1415,
       "transcript_summary": "quit. That's cool, though. Using Omachi is like uncovering little treasures, is like uncovering little treasures, is like uncovering little treasures, little things that DHH spent 3,000 hours little things that DHH spent 3,000 hours little things that DHH spent 3,000 hours figuring out. It's all things. And I I I figuring out. It's all things. And I I I figuring out. It's all things. And I I I heard this from Typcraft, Chris from heard this from Typcraft, Chris from heard this from Typcraft, Chris from Typcraft. It's all things I probably Typcraft. It's all things I probably Typcraft. It's all things I probably would have done myself. Like all those would have done myself. Like all those would have done myself. Like all those little tools that I use in Linux, I have little tools that I use in Linux, I have little tools that I use in Linux, I have to go in and install myself. It's things to go in and install myself. It's things to go in and install myself. It's things I would have done. Uh but he did it for I would have done. Uh but he did it for I would have done. Uh but he did it for us. And I'm not mad about that. There us. And I'm not mad about that. There us. And I'm not mad about that. There are some little fun apps that he built are some little fun apps that he built are some little fun apps that he built into it like into it like into it like write write write little textbased editor little textbased editor little textbased editor calc calc calc 5 + 5 10. Of course, it has my favorite 5 + 5 10. Of course, it has my favorite 5 + 5 10. Of course, it has my favorite editor of all time built in. Super shift editor of all time built in. Super shift editor of all time built in. Super shift O O O obsidian which is going to have my obsidian which is going to have my obsidian which is going to have my actual obsidian vault. Don't want you actual obsidian vault. Don't want you actual obsidian vault. Don't want you seeing that. Get out of here. We got seeing that. Get out of here. We got seeing that. Get out of here. We got super shift alt m open CLI amp which you super shift alt m open CLI amp which you super shift alt m open CLI amp which you may have seen this in my main video. may have seen this in my main video. may have seen this in my main video. This is just a really fun one. &gt;&gt; So fun. And if you're really missing &gt;&gt; So fun. And if you're really missing office um he has Libra Office built in. office um he has Libra Office built in. office um he has Libra Office built in. This is why I feel I would feel really This is why I feel I would feel really This is why I feel I would feel really good about giving this to my kids. Now good about giving this to my kids. Now good about giving this to my kids. Now for the fun stuff. Super control shift",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/072.png"
     },
     {
       "feature_group": "Theming & Customization",
@@ -658,7 +658,7 @@
       "start_s": 1415,
       "end_s": 1440,
       "transcript_summary": "good about giving this to my kids. Now for the fun stuff. Super control shift for the fun stuff. Super control shift for the fun stuff. Super control shift space. We can change our themes. Now, space. We can change our themes. Now, space. We can change our themes. Now, themes are so fun. This is part of what themes are so fun. This is part of what themes are so fun. This is part of what makes Omachi unique and that it has makes Omachi unique and that it has makes Omachi unique and that it has Let's go. Hacker Man has quick shell and Let's go. Hacker Man has quick shell and Let's go. Hacker Man has quick shell and it can quickly change your look and feel it can quickly change your look and feel it can quickly change your look and feel just at the drop of a hat and it skins a just at the drop of a hat and it skins a just at the drop of a hat and it skins a lot of the apps you have with it, which lot of the apps you have with it, which lot of the apps you have with it, which is so cool. Now, I haven't tried this is so cool. Now, I haven't tried this is so cool. Now, I haven't tried this one either. We're going to discover it one either. We're going to discover it one either. We're going to discover it together. I'm going to grab a wallpaper.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/073.png"
     },
     {
       "feature_group": "Theming & Customization",
@@ -667,7 +667,7 @@
       "start_s": 1440,
       "end_s": 1480,
       "transcript_summary": "one either. We're going to discover it together. I'm going to grab a wallpaper. together. I'm going to grab a wallpaper. together. I'm going to grab a wallpaper. When's the last time you actually When's the last time you actually When's the last time you actually searched for a wallpaper? Cyberpunk searched for a wallpaper? Cyberpunk searched for a wallpaper? Cyberpunk wallpaper. I like that. Save the wallpaper. I like that. Save the wallpaper. I like that. Save the downloads. And we'll do super space. downloads. And we'll do super space. downloads. And we'll do super space. Search for an app called Aether. Pick a wallpaper to begin. Pick a wallpaper to begin. And it just kind of created a theme for And it just kind of created a theme for And it just kind of created a theme for us. us. us. Whoa. And it Whoa. And then I just click Whoa. And it Whoa. And then I just click Whoa. And it Whoa. And then I just click on apply theme. That was so cool. So now on apply theme. That was so cool. So now on apply theme. That was so cool. So now I've got this new theme just from a I've got this new theme just from a I've got this new theme just from a wallpaper I found. wallpaper I found. wallpaper I found. And it's fully scanned my apps. That is And it's fully scanned my apps. That is And it's fully scanned my apps. That is awesome. Now that bar you see at the top",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/074.png"
     },
     {
       "feature_group": "Theming & Customization",
@@ -676,7 +676,7 @@
       "start_s": 1480,
       "end_s": 1500,
       "transcript_summary": "And it's fully scanned my apps. That is awesome. Now that bar you see at the top awesome. Now that bar you see at the top awesome. Now that bar you see at the top here. Let's open our terminal. Machi bar here. Let's open our terminal. Machi bar here. Let's open our terminal. Machi bar position left position left position left and just move to the left. Let's go to and just move to the left. Let's go to and just move to the left. Let's go to the bottom. the bottom. the bottom. If we type it right, which actually I If we type it right, which actually I If we type it right, which actually I kind of like that. kind of like that. kind of like that. Back at the top for now. This is a fun Back at the top for now. This is a fun Back at the top for now. This is a fun little thing. If you go to the top and little thing. If you go to the top and little thing. If you go to the top and you click on it or double click on it,",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/075.png"
     },
     {
       "feature_group": "Theming & Customization",
@@ -685,7 +685,7 @@
       "start_s": 1526,
       "end_s": 1550,
       "transcript_summary": "And that video was so fun to make. You guys should go watch it right now. Webp. guys should go watch it right now. Webp. guys should go watch it right now. Webp. Is it going to work with webp? Let's go. Is it going to work with webp? Let's go. Is it going to work with webp? Let's go. Superspace style screen saver Superspace style screen saver Superspace style screen saver set from image needs a PNG. There's not set from image needs a PNG. There's not set from image needs a PNG. There's not like a convert like a convert like a convert function doesn't have that yet. Come on, function doesn't have that yet. Come on, function doesn't have that yet. Come on, DHH. Hurry up. Anticipate my needs when DHH. Hurry up. Anticipate my needs when DHH. Hurry up. Anticipate my needs when I need them.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/076.png"
     },
     {
       "feature_group": "Theming & Customization",
@@ -694,7 +694,7 @@
       "start_s": 1708,
       "end_s": 1715,
       "transcript_summary": "you say we make our own? Wait. Oh, did I change wallpaper? What did I do? We just change wallpaper? What did I do? We just change wallpaper? What did I do? We just unlocked a hidden feature I didn't know unlocked a hidden feature I didn't know unlocked a hidden feature I didn't know about. Super control space. You can about. Super control space. You can about. Super control space. You can change your desktop background.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/077.png"
     },
     {
       "feature_group": "Plugins & Extensions",
@@ -703,7 +703,7 @@
       "start_s": 1555,
       "end_s": 1580,
       "transcript_summary": "show you a better way here in a moment. Now, one really fire thing about Now, one really fire thing about Now, one really fire thing about Omachi are the plugins. So, if I do Omachi are the plugins. So, if I do Omachi are the plugins. So, if I do super space and then go to plugin, I can super space and then go to plugin, I can super space and then go to plugin, I can go to add plugin, which will take me to go to add plugin, which will take me to go to add plugin, which will take me to the marketplace. Oh, I'll need to do a the marketplace. Oh, I'll need to do a the marketplace. Oh, I'll need to do a get URL of the plug-in repo. Okay, so we get URL of the plug-in repo. Okay, so we get URL of the plug-in repo. Okay, so we need to go to the website, I think. need to go to the website, I think. need to go to the website, I think. Let's go to Omachi plugins. Let's go to Omachi plugins. Let's go to Omachi plugins. There we go. Let's find a popular one. There we go. Let's find a popular one. There we go. Let's find a popular one. Most starred flights. Okay, we can just",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/078.png"
     },
     {
       "feature_group": "Plugins & Extensions",
@@ -712,7 +712,7 @@
       "start_s": 1580,
       "end_s": 1643,
       "transcript_summary": "There we go. Let's find a popular one. Most starred flights. Okay, we can just Most starred flights. Okay, we can just Most starred flights. Okay, we can just do it via this command. AI plugin add clone. Add the plugin. Yes, I do want to clone. Add the plugin. Yes, I do want to do that. Oh, that's it. It's done. Let's do that. Oh, that's it. It's done. Let's do that. Oh, that's it. It's done. Let's check it out. Wait, what the heck is check it out. Wait, what the heck is check it out. Wait, what the heck is this? I don't want to do anything. I this? I don't want to do anything. I this? I don't want to do anything. I don't want to verify my identity. No, I don't want to verify my identity. No, I don't want to verify my identity. No, I hate that plugin. I want a better hate that plugin. I want a better hate that plugin. I want a better plugin. Oh, now this is actually plugin. Oh, now this is actually plugin. Oh, now this is actually something you might need. This is something you might need. This is something you might need. This is becoming a a combo meal here. becoming a a combo meal here. becoming a a combo meal here. Hypermon config plugin. I was going to Hypermon config plugin. I was going to Hypermon config plugin. I was going to show you this actually. Okay, so let's show you this actually. Okay, so let's show you this actually. Okay, so let's install it. Let's put on the left. Cool. install it. Let's put on the left. Cool. install it. Let's put on the left. Cool. So, right now I have two monitors. So, So, right now I have two monitors. So, So, right now I have two monitors. So, you're learning about plugins and you're learning about plugins and you're learning about plugins and monitor management now because notice monitor management now because notice monitor management now because notice while it's installing there's like no while it's installing there's like no while it's installing there's like no way to arrange your monitor or do way to arrange your monitor or do way to arrange your monitor or do anything. And I've got two monitors anything. And I've got two monitors anything. And I've got two monitors right now. This one you're seeing here right now. This one you're seeing here right now. This one you're seeing here and the laptop on the floor. Oh, look at and the laptop on the floor. Oh, look at and the laptop on the floor. Oh, look at that. Okay. So, you actually you can that. Okay. So, you actually you can that. Okay. So, you actually you can manage your monitor here. I love that. manage your monitor here. I love that. manage your monitor here. I love that. Cool. And it's just right up here. It's Cool. And it's just right up here. It's Cool. And it's just right up here. It's still pretty sick though. So, manage all still pretty sick though. So, manage all still pretty sick though. So, manage all your monitor stuff right there.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/079.png"
     },
     {
       "feature_group": "AI Integration",
@@ -721,7 +721,7 @@
       "start_s": 1643,
       "end_s": 1672,
       "transcript_summary": "still pretty sick though. So, manage all your monitor stuff right there. Now, if you haven't done this already, Now, if you haven't done this already, have you picked your AI? If I go to have you picked your AI? If I go to have you picked your AI? If I go to superspace agent, I can choose my superspace agent, I can choose my superspace agent, I can choose my default agent. So, this is a lot of the default agent. So, this is a lot of the default agent. So, this is a lot of the built-in that comes in. These are the built-in that comes in. These are the built-in that comes in. These are the main harnesses. Yes, with Claude and main harnesses. Yes, with Claude and main harnesses. Yes, with Claude and Codeex and Copilot and Gemini and Gro, Codeex and Copilot and Gemini and Gro, Codeex and Copilot and Gemini and Gro, you can use your subscriptions. All the you can use your subscriptions. All the you can use your subscriptions. All the harnesses, I think, are pre-installed. harnesses, I think, are pre-installed. harnesses, I think, are pre-installed. And should you choose one of these, they And should you choose one of these, they And should you choose one of these, they suddenly become your agent, your suddenly become your agent, your suddenly become your agent, your harness. And up here, boom, I've got my harness. And up here, boom, I've got my harness. And up here, boom, I've got my codeex as my default harness. You can codeex as my default harness. You can codeex as my default harness. You can see the usage and everything there. If I",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/080.png"
     },
     {
       "feature_group": "AI Integration",
@@ -730,7 +730,7 @@
       "start_s": 1672,
       "end_s": 1698,
       "transcript_summary": "codeex as my default harness. You can see the usage and everything there. If I see the usage and everything there. If I see the usage and everything there. If I hit super shift control A, it opens up hit super shift control A, it opens up hit super shift control A, it opens up my default harness, my default codecs. And the reason this my default codecs. And the reason this is important is because if you saw my is important is because if you saw my is important is because if you saw my video, Omachi is an AI first OS, video, Omachi is an AI first OS, video, Omachi is an AI first OS, meaning it's got some Omachi skills and meaning it's got some Omachi skills and meaning it's got some Omachi skills and everything your AI might need to help everything your AI might need to help everything your AI might need to help you with your operating system, both you with your operating system, both you with your operating system, both from like troubleshooting it and also from like troubleshooting it and also from like troubleshooting it and also from to configuring it and rising it.",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/081.png"
     },
     {
       "feature_group": "AI Integration",
@@ -739,7 +739,7 @@
       "start_s": 1715,
       "end_s": 1920,
       "transcript_summary": "about. Super control space. You can change your desktop background. change your desktop background. change your desktop background. Oh, Oh, Oh, that's nice. Anyways, we're going to that's nice. Anyways, we're going to that's nice. Anyways, we're going to make our own real quick, but with AI. make our own real quick, but with AI. make our own real quick, but with AI. And actually, I want to switch to And actually, I want to switch to And actually, I want to switch to Claude. Now, we use our omachi skill. Claude. Now, we use our omachi skill. Claude. Now, we use our omachi skill. Okay, dude. I want you to create a new Okay, dude. I want you to create a new Okay, dude. I want you to create a new theme for me using Omachi. Wait, using theme for me using Omachi. Wait, using theme for me using Omachi. Wait, using orange. It's so much easier. I want this orange. It's so much easier. I want this orange. It's so much easier. I want this theme to be network Chuck based. Uh, and theme to be network Chuck based. Uh, and theme to be network Chuck based. Uh, and I want it to have this like 90s Japanese I want it to have this like 90s Japanese I want it to have this like 90s Japanese feel, very minimalist. And I want you to feel, very minimalist. And I want you to feel, very minimalist. And I want you to theme the entire workspace. I want it to theme the entire workspace. I want it to theme the entire workspace. I want it to look awesome. All right, let's get to look awesome. All right, let's get to look awesome. All right, let's get to work. Okay, Clyde just finished my new work. Okay, Clyde just finished my new work. Okay, Clyde just finished my new theme. It already changed it for me, theme. It already changed it for me, theme. It already changed it for me, too. Uh, let's just really quickly Yeah. too. Uh, let's just really quickly Yeah. too. Uh, let's just really quickly Yeah. Network Chuck Kissaten, which I think a Network Chuck Kissaten, which I think a Network Chuck Kissaten, which I think a kissoten is like a Japanese coffee shop, kissoten is like a Japanese coffee shop, kissoten is like a Japanese coffee shop, right? That's what it is. right? That's what it is. right? That's what it is. Let's see. Oh, what is that? Yeah, Let's see. Oh, what is that? Yeah, Let's see. Oh, what is that? Yeah, actually that's nice. I like that. Do I actually that's nice. I like that. Do I actually that's nice. I like that. Do I have different themes? I actually like that a lot. I noticed it I actually like that a lot. I noticed it did theme like all my apps, too. Like, did theme like all my apps, too. Like, did theme like all my apps, too. Like, let's see. VS Code. Oh, maybe it didn't let's see. VS Code. Oh, maybe it didn't let's see. VS Code. Oh, maybe it didn't theme it. I don't know, dog. But it theme it. I don't know, dog. But it theme it. I don't know, dog. But it certainly themed lazy them, right? Yeah, certainly themed lazy them, right? Yeah, certainly themed lazy them, right? Yeah, it's themed. Okay, I'll take it. Okay, it's themed. Okay, I'll take it. Okay, it's themed. Okay, I'll take it. Okay, I'm going to set pi I'm going to set pi I'm going to set pi as my default agent. And I've got a as my default agent. And I've got a as my default agent. And I've got a local model running, one of the Quinn local model running, one of the Quinn local model running, one of the Quinn models. Which one is it? Let's see. What models. Which one is it? Let's see. What models. Which one is it? Let's see. What model are you? Keeping in mind this is model are you? Keeping in mind this is model are you? Keeping in mind this is running on my framework laptop that does running on my framework laptop that does running on my framework laptop that does not have a dedicated GPU. Quinn 3.5 Open not have a dedicated GPU. Quinn 3.5 Open not have a dedicated GPU. Quinn 3.5 Open Code 4B. All right, let's see if we can Code 4B. All right, let's see if we can Code 4B. All right, let's see if we can have this do something basic, right? have this do something basic, right? have this do something basic, right? Let's use the Omachi skill and say, Let's use the Omachi skill and say, Let's use the Omachi skill and say, what's my power mode at right now? Oh, what's my power mode at right now? Oh, what's my power mode at right now? Oh, I'm at balance because I'm not on power I'm at balance because I'm not on power I'm at balance because I'm not on power right now. Uh, change my battery power right now. Uh, change my battery power right now. Uh, change my battery power profile. profile. profile. to performance. Okay, it said it did it. to performance. Okay, it said it did it. to performance. Okay, it said it did it. Let's go see. Hey, so that is that is my Let's go see. Hey, so that is that is my Let's go see. Hey, so that is that is my way of showing you how a local AI model way of showing you how a local AI model way of showing you how a local AI model can do stuff for you in Amachi. Let's can do stuff for you in Amachi. Let's can do stuff for you in Amachi. Let's get let's make it do something. And it's get let's make it do something. And it's get let's make it do something. And it's actually got 128,000 actually got 128,000 actually got 128,000 token context window. That's pretty token context window. That's pretty token context window. That's pretty impressive. Now impressive. Now impressive. Now create create create a fun Omachi a fun Omachi a fun Omachi ASI screen saver. Ooh, what's our theme? ASI screen saver. Ooh, what's our theme? ASI screen saver. Ooh, what's our theme? That is Lord of the Rings themed. I have That is Lord of the Rings themed. I have That is Lord of the Rings themed. I have no idea if it can do this. Okay, it no idea if it can do this. Okay, it no idea if it can do this. Okay, it finished my screen saver apparently. I'm finished my screen saver apparently. I'm finished my screen saver apparently. I'm like, I want to see it so bad. Uh, let's like, I want to see it so bad. Uh, let's like, I want to see it so bad. Uh, let's go style screen saver. How do I set it? go style screen saver. How do I set it? go style screen saver. How do I set it? I'll just tell him to do it. Okay, I'll just tell him to do it. Okay, I'll just tell him to do it. Okay, update. I had to restart my session. update. I had to restart my session. update. I had to restart my session. Something freaked out and then I told Something freaked out and then I told Something freaked out and then I told him again, \"Hey, make it my screen him again, \"Hey, make it my screen him again, \"Hey, make it my screen saver.\" And I think he's figuring it saver.\" And I think he's figuring it saver.\" And I think he's figuring it out. You know, I got to be honest. out. You know, I got to be honest. out. You know, I got to be honest. Watching this Watching this Watching this local AI do some work on my machine is local AI do some work on my machine is local AI do some work on my machine is kind of fun. It's exciting. Fellowship kind of fun. It's exciting. Fellowship kind of fun. It's exciting. Fellowship of the Ring may its members never be of the Ring may its members never be of the Ring may its members never be parted. I love local AI. Said it was parted. I love local AI. Said it was parted. I love local AI. Said it was live now. Let's see. Okay, I y'all saw live now. Let's see. Okay, I y'all saw live now. Let's see. Okay, I y'all saw that, right? When we get past the Matrix that, right? When we get past the Matrix that, right? When we get past the Matrix thing, we'll see something cool. We get thing, we'll see something cool. We get thing, we'll see something cool. We get it. It's the Matrix. Come on. You know, it. It's the Matrix. Come on. You know, it. It's the Matrix. Come on. You know, I don't know what that is, but local AI I don't know what that is, but local AI I don't know what that is, but local AI did a screen saver and it made it the did a screen saver and it made it the did a screen saver and it made it the config. That's pretty cool. And it's not config. That's pretty cool. And it's not config. That's pretty cool. And it's not a smart model. Like this is running on a smart model. Like this is running on a smart model. Like this is running on my framework laptop without a dedicated my framework laptop without a dedicated my framework laptop without a dedicated GPU. That's a win. That's a win. Okay, GPU. That's a win. That's a win. Okay, GPU. That's a win. That's a win. Okay, you need to build a plugin. Let me show",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/082.png"
     },
     {
       "feature_group": "Plugin Development",
@@ -748,7 +748,7 @@
       "start_s": 1920,
       "end_s": 2070,
       "transcript_summary": "GPU. That's a win. That's a win. Okay, you need to build a plugin. Let me show you need to build a plugin. Let me show you need to build a plugin. Let me show you. You don't have to know how to code. you. You don't have to know how to code. you. You don't have to know how to code. We're going to use AI, of course. For We're going to use AI, of course. For We're going to use AI, of course. For this, I'll use something smart like this, I'll use something smart like this, I'll use something smart like clock. I want you to build a plugin. I clock. I want you to build a plugin. I clock. I want you to build a plugin. I want this plugin to be a coffee cup want this plugin to be a coffee cup want this plugin to be a coffee cup counter to count how many cups of coffee counter to count how many cups of coffee counter to count how many cups of coffee you had in a day. I want to make sure it you had in a day. I want to make sure it you had in a day. I want to make sure it matches any theme that someone might matches any theme that someone might matches any theme that someone might apply. I want it to be um more of a apply. I want it to be um more of a apply. I want it to be um more of a drop- down thing that goes in the top drop- down thing that goes in the top drop- down thing that goes in the top right corner. I want selections based on right corner. I want selections based on right corner. I want selections based on whether it was fully caffeinated, half whether it was fully caffeinated, half whether it was fully caffeinated, half calf, or decaf. And if they had a whole calf, or decaf. And if they had a whole calf, or decaf. And if they had a whole cup, half a cup, or whatever. If it was cup, half a cup, or whatever. If it was cup, half a cup, or whatever. If it was black coffee, or it was sugary and black coffee, or it was sugary and black coffee, or it was sugary and creamy from Starbucks or something. Man, creamy from Starbucks or something. Man, creamy from Starbucks or something. Man, Vox type works so good. I want you to Vox type works so good. I want you to Vox type works so good. I want you to actually keep track of all the coffee actually keep track of all the coffee actually keep track of all the coffee that someone might drink over time. Of that someone might drink over time. Of that someone might drink over time. Of course, the counter for each day gets course, the counter for each day gets course, the counter for each day gets reset, but I want a historical view of reset, but I want a historical view of reset, but I want a historical view of like how many per week, how many per like how many per week, how many per like how many per week, how many per month, how many per year. If there's month, how many per year. If there's month, how many per year. If there's anything I'm missing with this spec, if anything I'm missing with this spec, if anything I'm missing with this spec, if there's anything unclear, grill me, ask there's anything unclear, grill me, ask there's anything unclear, grill me, ask me questions before we start building. me questions before we start building. me questions before we start building. Let's go. Okay, the plugin is done. Let's go. Okay, the plugin is done. Let's go. Okay, the plugin is done. Let's go take a look. Zero milligrams Let's go take a look. Zero milligrams Let's go take a look. Zero milligrams today so far. Look at that. I'm going to today so far. Look at that. I'm going to today so far. Look at that. I'm going to log a cup. So, you can have presets. log a cup. So, you can have presets. log a cup. So, you can have presets. Full calf, one cup, black. Um, actually, Full calf, one cup, black. Um, actually, Full calf, one cup, black. Um, actually, what I've had right now is decaf. Log what I've had right now is decaf. Log what I've had right now is decaf. Log it. That's so stinking cool. Okay, so it. That's so stinking cool. Okay, so it. That's so stinking cool. Okay, so that's a plugin. I just created one. that's a plugin. I just created one. that's a plugin. I just created one. Now, let's make it public. Now, to do Now, let's make it public. Now, to do Now, let's make it public. Now, to do this, you're going to ask your AI. this, you're going to ask your AI. this, you're going to ask your AI. You're going to say, \"How do I do this?\" You're going to say, \"How do I do this?\" You're going to say, \"How do I do this?\" But it's going to involve you having But it's going to involve you having But it's going to involve you having your own GitHub account. If you don't your own GitHub account. If you don't your own GitHub account. If you don't already have one, get one. And then already have one, get one. And then already have one, get one. And then you're going to submit it. So, I'll say, you're going to submit it. So, I'll say, you're going to submit it. So, I'll say, \"Hey, let's make this public.\" submit it \"Hey, let's make this public.\" submit it \"Hey, let's make this public.\" submit it to the plug-in marketplace. And it's to the plug-in marketplace. And it's to the plug-in marketplace. And it's really that simple. Like you can really that simple. Like you can really that simple. Like you can contribute right now. Do it. You have an contribute right now. Do it. You have an contribute right now. Do it. You have an idea, do it. Okay. Now, I'm naming my idea, do it. Okay. Now, I'm naming my idea, do it. Okay. Now, I'm naming my repo for the plugin. It's a widget. repo for the plugin. It's a widget. repo for the plugin. It's a widget. Submit. Boom. So, right now, the repo is Submit. Boom. So, right now, the repo is Submit. Boom. So, right now, the repo is live and it's public, but it still has live and it's public, but it still has live and it's public, but it still has to go through the, you know, the get CI to go through the, you know, the get CI to go through the, you know, the get CI for the plug-in repo to actually live on for the plug-in repo to actually live on for the plug-in repo to actually live on there. They have to approve it. It takes there. They have to approve it. It takes there. They have to approve it. It takes a few hours, but once that's done, it's a few hours, but once that's done, it's a few hours, but once that's done, it's going to be live. I've already done one. going to be live. I've already done one. going to be live. I've already done one. I have another thing I made. If I go to I have another thing I made. If I go to I have another thing I made. If I go to plugins, enable plugin. plugins, enable plugin. plugins, enable plugin. It's scripture scroller, which is It's scripture scroller, which is It's scripture scroller, which is actually live right now, but that's live actually live right now, but that's live actually live right now, but that's live on the marketplace if you want to check on the marketplace if you want to check on the marketplace if you want to check it out. Okay, update. Apparently, the it out. Okay, update. Apparently, the it out. Okay, update. Apparently, the they're not allowing me to issue a PR. they're not allowing me to issue a PR. they're not allowing me to issue a PR. That's okay. We'll figure it out. Point",
-      "thumbnail": ""
+      "thumbnail": "thumbnails/083.png"
     }
   ]
 }

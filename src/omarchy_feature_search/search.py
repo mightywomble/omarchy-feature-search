@@ -8,15 +8,25 @@ Two backends:
   feature/how-to/transcript text. Confidence = normalised token-coverage %.
 
 Both return a list of :class:`Result` with a 0–100 ``confidence``.
+
+The semantic embedding model is loaded **lazily** on the first semantic search
+(see :meth:`SearchEngine._ensure_model`), so constructing a ``SearchEngine`` is
+cheap and instant — important so the app can show the full browse list at
+startup without importing/loading torch.
 """
 
 from __future__ import annotations
 
+import importlib.util as _ilu
 import re
 from dataclasses import dataclass, field
-from pathlib import Path
 
 from omarchy_feature_search import data as data_mod
+
+
+def _have(*mods: str) -> bool:
+    """True if every module is importable, WITHOUT importing them."""
+    return all(_ilu.find_spec(m) is not None for m in mods)
 
 _MODEL_NAME = "all-MiniLM-L6-v2"
 _TOKEN_RE = re.compile(r"[a-z0-9]+")
@@ -62,45 +72,104 @@ def _feature_text(feat: dict) -> str:
     )
 
 
+def results_from_doc(doc: dict) -> list[Result]:
+    """Build Result objects for every feature in a doc (browse mode, no score)."""
+    url = doc.get("video_url", "")
+    out: list[Result] = []
+    for f in doc.get("features", []):
+        out.append(
+            Result(
+                feature=str(f.get("feature", "")),
+                feature_group=str(f.get("feature_group", "")),
+                how_to=str(f.get("how_to", "")),
+                transcript_summary=str(f.get("transcript_summary", "")) or str(f.get("how_to", "")),
+                confidence=0.0,
+                start_s=int(f.get("start_s", 0)),
+                end_s=int(f.get("end_s", 0)),
+                video_url=str(f.get("video_url", url)),
+                thumbnail=str(f.get("thumbnail", "")),
+            )
+        )
+    return out
+
+
 class SearchEngine:
     def __init__(self, features_doc: dict | None = None):
         self.doc = features_doc if features_doc is not None else data_mod.load_features()
         self.features: list[dict] = self.doc.get("features", [])
         self.video_url: str = self.doc.get("video_url", "")
-        self._semantic = self._try_semantic()
+        # Lazy semantic state — NOT loaded at construction time.
+        self._model = None
+        self._coll = None
+        self._st_class = None
+        self._sem_checked = False
+        self._sem_ok = False
+        self._sem_ready = False  # set True once the model is actually loaded
 
     # ------------------------------------------------------------------ #
-    # semantic backend
+    # semantic backend (lazy)
     # ------------------------------------------------------------------ #
-    def _try_semantic(self):
+    def _check_semantic(self) -> bool:
+        """Cheap check: chroma index present + deps importable. Does NOT load
+        the sentence-transformers model."""
+        if self._sem_checked:
+            return self._sem_ok
+        self._sem_checked = True
         chroma_path = data_mod.chroma_dir()
         if not chroma_path.exists():
-            return None
-        try:
+            return False
+        # Lightweight: confirm the deps are *installable* without importing
+        # them (importing sentence_transformers pulls in torch, ~10-30s).
+        if not _have("chromadb", "sentence_transformers"):
+            return False
+        self._sem_ok = True
+        return True
+
+    def _ensure_model(self):
+        """Load chromadb + the embedding model on first use (call from a worker
+        thread — this is where the heavy torch import happens)."""
+        if self._coll is None:
             import chromadb
             from sentence_transformers import SentenceTransformer
-        except ImportError:
-            return None
-        try:
-            client = chromadb.PersistentClient(path=str(chroma_path))
-            coll = client.get_collection("video_segments")
-            model = SentenceTransformer(_MODEL_NAME)
-        except Exception:
-            return None
-        return (model, coll)
+
+            self._coll = chromadb.PersistentClient(
+                path=str(data_mod.chroma_dir())
+            ).get_collection("video_segments")
+            self._st_class = SentenceTransformer
+        if self._model is None and self._st_class is not None:
+            self._model = self._st_class(_MODEL_NAME)
+        self._sem_ready = self._model is not None
+        return self._sem_ready
+
+    def preload_semantic(self) -> bool:
+        """Preload the semantic model in a background thread. Returns True if
+        the model is now ready. Safe to call from any thread."""
+        if not self._check_semantic():
+            return False
+        if self._sem_ready:
+            return True
+        return self._ensure_model()
+
+    @property
+    def semantic_ready(self) -> bool:
+        return self._sem_ready
 
     @property
     def backend(self) -> str:
-        return "semantic" if self._semantic else "keyword"
+        # Only report semantic if the model is actually loaded — otherwise
+        # keyword is used for instant results.
+        return "semantic" if self._sem_ready else "keyword"
 
     # ------------------------------------------------------------------ #
     # public API
     # ------------------------------------------------------------------ #
-    def search(self, query: str, top_k: int = 8) -> list[Result]:
+    def search(self, query: str, top_k: int = 30) -> list[Result]:
         query = query.strip()
         if not query:
             return []
-        if self._semantic:
+        # Use instant keyword search until the semantic model is loaded —
+        # avoids a ~30s freeze on the first query while torch imports.
+        if self._sem_ready:
             try:
                 return self._semantic_search(query, top_k)
             except Exception:
@@ -111,9 +180,10 @@ class SearchEngine:
     # implementations
     # ------------------------------------------------------------------ #
     def _semantic_search(self, query: str, top_k: int) -> list[Result]:
-        model, coll = self._semantic
-        qvec = model.encode([query]).tolist()
-        res = coll.query(query_embeddings=qvec, n_results=min(top_k, len(self.features)))
+        if not self._ensure_model():
+            return self._keyword_search(query, top_k)
+        qvec = self._model.encode([query]).tolist()
+        res = self._coll.query(query_embeddings=qvec, n_results=min(top_k, len(self.features)))
         out: list[Result] = []
         ids = res.get("ids", [[]])[0]
         distances = res.get("distances", [[]])[0]
@@ -143,7 +213,6 @@ class SearchEngine:
             hits = sum(1 for t in q_set if t in t_tokens or t in text_l)
             if hits == 0:
                 continue
-            # coverage of query terms, boosted for matches in the feature name
             name_tokens = set(_tokens(str(feat.get("feature", ""))))
             name_hits = sum(1 for t in q_set if t in name_tokens)
             coverage = hits / len(q_set)

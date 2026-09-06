@@ -189,4 +189,95 @@ QPushButton#externalButton:hover {{
     background-color: {c('accent')};
     color: {c('background')};
 }}
+/* master/detail list */
+QFrame#listItem {{
+    background-color: {c('lighter_background')};
+    border: 1px solid {c('selection')};
+    border-radius: 8px;
+}}
+QFrame#listItem:hover {{
+    border: 1px solid {c('accent')};
+}}
+QFrame#listItemSelected {{
+    background-color: {c('selection')};
+    border: 2px solid {c('accent')};
+    border-radius: 8px;
+}}
+QLabel#listName {{
+    color: {c('bright_foreground')};
+    font-size: 13px;
+    font-weight: 600;
+}}
+QLabel#listGroup {{
+    color: {c('accent')};
+    font-size: 10px;
+    font-weight: 600;
+}}
+QLabel#listCommand {{
+    color: {c('cyan', c('foreground'))};
+    font-family: "JetBrains Mono", "Fira Code", "DejaVu Sans Mono", monospace;
+    font-size: 11px;
+}}
+QLabel#matchPct {{
+    color: {c('bright_foreground')};
+    background-color: {c('accent')};
+    border-radius: 8px;
+    padding: 1px 8px;
+    font-size: 10px;
+    font-weight: 700;
+}}
+/* detail panel */
+QFrame#detailPanel {{
+    background-color: {c('lighter_background')};
+    border: 1px solid {c('selection')};
+    border-radius: 12px;
+}}
+QLabel#detailName {{
+    color: {c('bright_foreground')};
+    font-size: 19px;
+    font-weight: 800;
+}}
+QLabel#detailGroup {{
+    color: {c('accent')};
+    font-size: 11px;
+    font-weight: 600;
+}}
+QLabel#sectionLabel {{
+    color: {c('muted')};
+    font-size: 11px;
+    font-weight: 700;
+}}
+QFrame#commandBlock {{
+    background-color: {c('dark_background')};
+    border: 1px solid {c('selection')};
+    border-radius: 8px;
+}}
+QLabel#commandText {{
+    color: {c('bright_foreground')};
+    font-family: "JetBrains Mono", "Fira Code", "DejaVu Sans Mono", monospace;
+    font-size: 14px;
+    font-weight: 600;
+}}
+QLabel#detailSummary {{
+    color: {c('foreground')};
+    font-size: 12px;
+}}
+QPushButton#detailThumb {{
+    background-color: {c('darker_background')};
+    border: 2px solid {c('selection')};
+    border-radius: 10px;
+    color: {c('accent')};
+}}
+QPushButton#detailThumb:hover {{
+    border: 2px solid {c('accent')};
+}}
+QLabel#detailTimestamp {{
+    color: {c('muted')};
+    font-family: "JetBrains Mono", "Fira Code", "DejaVu Sans Mono", monospace;
+    font-size: 11px;
+}}
+QLabel#placeholder {{
+    color: {c('muted')};
+    font-size: 13px;
+}}
 """

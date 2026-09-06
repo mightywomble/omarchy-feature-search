@@ -1,115 +1,62 @@
-"""Embedded mpv playback with an external-mpv fallback.
+"""Video playback for Omarchy Feature Search.
 
-* If ``python-mpv`` is installed, :class:`PlayerWidget` renders the stream
-  directly into a Qt widget via the widget's native window id.
-* Otherwise :func:`play_external` launches a standalone ``mpv`` window at the
-  right timestamp.
-
-Both stream the YouTube segment (``--start``/``--end`` with ``--ytdl``) so no
-local video file is required for playback.
+Downloads just the segment (the feature's timestamp range) as a ≤480p non-AV1
+merged MP4 with AAC audio, cached per segment. The local file is then played
+in-app via Qt's ``QMediaPlayer`` + ``QVideoWidget``. First click per segment
+takes ~20s (one-time download); subsequent clicks are instant (cached).
 """
 
 from __future__ import annotations
 
 import subprocess
+from pathlib import Path
 
-try:
-    import mpv as _mpv
-
-    _HAS_MPV_PY = True
-except Exception:  # ImportError or OSError (libmpv missing)
-    _mpv = None
-    _HAS_MPV_PY = False
-
-
-def has_embedded() -> bool:
-    return _HAS_MPV_PY
+# Non-AV1, ≤480p video + m4a audio (AAC), merged into mp4.
+_FMT = (
+    "bestvideo[height<=480][vcodec!*=av01]+bestaudio[ext=m4a]"
+    "/bestvideo[height<=480][vcodec!*=av01]+bestaudio"
+    "/best[height<=480][vcodec!*=av01]/best[height<=480]/best"
+)
+_CACHE_DIR = Path.home() / ".cache" / "omarchy-feature-search"
 
 
-def play_external(video_url: str, start_s: int, end_s: int | None = None) -> subprocess.Popen:
-    """Launch an external mpv window streaming the segment."""
+def _fmt_ts(seconds: int) -> str:
+    h, rem = divmod(int(seconds), 3600)
+    m, s = divmod(rem, 60)
+    return f"{h:02d}:{m:02d}:{s:02d}"
+
+
+def segment_cache_path(video_id: str, start_s: int, end_s: int) -> Path:
+    return _CACHE_DIR / f"{video_id}_{start_s}_{end_s}.mp4"
+
+
+def ensure_segment_cached(
+    video_id: str, start_s: int, end_s: int, video_url: str
+) -> Path | None:
+    """Download just the segment [start_s, end_s] once to a cache file."""
+    dest = segment_cache_path(video_id, start_s, end_s)
+    if dest.exists() and dest.stat().st_size > 50_000:
+        return dest
+    _CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    section = f"*{_fmt_ts(start_s)}-{_fmt_ts(end_s)}"
+    tmp = dest.with_suffix(".part.mp4")
     cmd = [
-        "mpv",
-        f"--start={int(start_s)}",
-        "--ytdl",
-        "--ytdl-format=best[height<=720]/best",
+        "yt-dlp",
+        "-f", _FMT,
+        "--merge-output-format", "mp4",
+        "--download-sections", section,
+        "--force-keyframes-at-cuts",
+        "-o", str(tmp),
+        "--no-playlist",
+        "--no-warnings",
         video_url,
     ]
-    if end_s is not None and end_s > start_s:
-        cmd.insert(2, f"--end={int(end_s)}")
-    return subprocess.Popen(cmd)
-
-
-try:
-    from PySide6.QtWidgets import QVBoxLayout, QWidget
-    from PySide6.QtCore import Qt
-
-    _HAS_QT = True
-except Exception:
-    _HAS_QT = False
-
-
-if _HAS_QT:
-
-    class PlayerWidget(QWidget):
-        """A Qt widget hosting an embedded mpv player."""
-
-        def __init__(self, parent: QWidget | None = None):
-            super().__init__(parent)
-            self.setObjectName("playerFrame")
-            self.setMinimumHeight(220)
-            self._layout = QVBoxLayout(self)
-            self._layout.setContentsMargins(0, 0, 0, 0)
-            self._mpv = None
-
-            if _HAS_MPV_PY:
-                # Container that mpv renders into via its native window id.
-                self._container = QWidget(self)
-                self._container.setAttribute(Qt.WA_DontCreateNativeAncestors, True)
-                self._container.setAttribute(Qt.WA_NativeWindow, True)
-                self._layout.addWidget(self._container)
-                self._mpv = _mpv.MPV(
-                    wid=str(int(self._container.winId())),
-                    vo="gpu",
-                    ytdl=True,
-                    keep_open=True,
-                    log_handler=lambda *a: None,
-                )
-            else:
-                self._container = None
-
-        @property
-        def available(self) -> bool:
-            return self._mpv is not None
-
-        def play(self, video_url: str, start_s: int, end_s: int | None = None) -> None:
-            if not self._mpv:
-                return
-            self._mpv.play(video_url)
-            try:
-                self._mpv.wait_until_playing(timeout=10)
-            except Exception:
-                pass
-            try:
-                self._mpv.seek(int(start_s), reference="absolute")
-            except Exception:
-                pass
-            if end_s is not None and end_s > start_s:
-                try:
-                    self._mpv["end"] = str(int(end_s))
-                except Exception:
-                    pass
-
-        def stop(self) -> None:
-            if self._mpv:
-                try:
-                    self._mpv.terminate()
-                except Exception:
-                    pass
-                self._mpv = None
-
-        def shutdown(self) -> None:
-            self.stop()
-
-else:
-    PlayerWidget = None  # type: ignore
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+        if r.returncode == 0 and tmp.exists():
+            tmp.rename(dest)
+            return dest
+    except Exception:
+        pass
+    tmp.unlink(missing_ok=True)
+    return None
