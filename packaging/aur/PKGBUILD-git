@@ -1,13 +1,11 @@
 # Maintainer: david <david@example.com>
-# AUR package: omarchy-feature-search
-# A searchable NetworkChuck Omarchy features knowledge base with in-app
-# video segment playback. Native Qt (PySide6) app, themed to match the
-# active Omarchy desktop theme.
+# AUR -git package: omarchy-feature-search-git
+# Clones the latest git HEAD — no release tag needed. Simpler to maintain.
 
-pkgname=omarchy-feature-search
-pkgver=0.1.0
+pkgname=omarchy-feature-search-git
+pkgver=0.1.0.r1.g$(git describe --always 2>/dev/null | sed 's/-/./g' || echo 0)
 pkgrel=1
-pkgdesc="Searchable NetworkChuck Omarchy features knowledge base with in-app video segments"
+pkgdesc="Searchable NetworkChuck Omarchy features knowledge base with in-app video segments (git)"
 arch=('any')
 url="https://git.safehomelan.com/david/ncomarchykb"
 license=('MIT')
@@ -18,6 +16,7 @@ depends=(
     'ffmpeg'
 )
 makedepends=(
+    'git'
     'python-build'
     'python-installer'
     'python-setuptools'
@@ -27,19 +26,23 @@ optdepends=(
     'python-sentence-transformers: semantic (vector) search backend'
     'python-chromadb: persistent vector index for the semantic search backend'
 )
-source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz")
+source=("git+${url}.git")
 sha256sums=('SKIP')
 
+pkgver() {
+    cd "${srcdir}/${pkgname%-git}"
+    git describe --long --tags 2>/dev/null | sed 's/^v//;s/-/./g' || printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
 build() {
-    cd "${srcdir}/${pkgname}"
+    cd "${srcdir}/${pkgname%-git}"
     python -m build --wheel --no-isolation
 }
 
 package() {
-    cd "${srcdir}/${pkgname}"
+    cd "${srcdir}/${pkgname%-git}"
     python -m installer --destdir="${pkgdir}" dist/*.whl
 
-    # Desktop entry + icon so it appears in the Super+Space launcher
     install -Dm644 packaging/aur/omarchy-feature-search.desktop \
         "${pkgdir}/usr/share/applications/omarchy-feature-search.desktop"
     install -Dm644 src/omarchy_feature_search/assets/icon.svg \
