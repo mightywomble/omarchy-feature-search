@@ -7,7 +7,7 @@ pkgver=0.1.0.r1.g$(git describe --always 2>/dev/null | sed 's/-/./g' || echo 0)
 pkgrel=1
 pkgdesc="Searchable NetworkChuck Omarchy features knowledge base with in-app video segments (git)"
 arch=('any')
-url="https://git.safehomelan.com/david/ncomarchykb"
+url="https://github.com/mightywomble/omarchy-feature-search"
 license=('MIT')
 depends=(
     'python>=3.11'
@@ -30,17 +30,17 @@ source=("git+${url}.git")
 sha256sums=('SKIP')
 
 pkgver() {
-    cd "${srcdir}/ncomarchykb"
+    cd "${srcdir}/omarchy-feature-search"
     git describe --long --tags 2>/dev/null | sed 's/^v//;s/-/./g' || printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
-    cd "${srcdir}/ncomarchykb"
+    cd "${srcdir}/omarchy-feature-search"
     python -m build --wheel --no-isolation
 }
 
 package() {
-    cd "${srcdir}/ncomarchykb"
+    cd "${srcdir}/omarchy-feature-search"
     python -m installer --destdir="${pkgdir}" dist/*.whl
 
     install -Dm644 packaging/aur/omarchy-feature-search.desktop \

@@ -9,7 +9,7 @@ pkgver=0.1.0
 pkgrel=1
 pkgdesc="Searchable NetworkChuck Omarchy features knowledge base with in-app video segments"
 arch=('any')
-url="https://git.safehomelan.com/david/ncomarchykb"
+url="https://github.com/mightywomble/omarchy-feature-search"
 license=('MIT')
 depends=(
     'python>=3.11'
@@ -27,16 +27,16 @@ optdepends=(
     'python-sentence-transformers: semantic (vector) search backend'
     'python-chromadb: persistent vector index for the semantic search backend'
 )
-source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz")
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('SKIP')
 
 build() {
-    cd "${srcdir}/ncomarchykb"
+    cd "${srcdir}/${pkgname}-${pkgver}"
     python -m build --wheel --no-isolation
 }
 
 package() {
-    cd "${srcdir}/ncomarchykb"
+    cd "${srcdir}/${pkgname}-${pkgver}"
     python -m installer --destdir="${pkgdir}" dist/*.whl
 
     # Desktop entry + icon so it appears in the Super+Space launcher
