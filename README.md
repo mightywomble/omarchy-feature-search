@@ -13,6 +13,8 @@ desktop look and feel.
 
 **Source:** https://github.com/mightywomble/omarchy-feature-search
 
+![Omarchy Feature Search](assets/screenshot.png)
+
 ## Features
 
 - **Master-detail layout** — browsable list of all 83 features (group, name,
