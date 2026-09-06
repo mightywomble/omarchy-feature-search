@@ -106,14 +106,15 @@ def download_video(video_url: str, dest: Path, height: int = 720) -> Path:
 def extract_thumbnails(video_path: Path, data: dict, thumb_dir: Path) -> dict:
     thumb_dir.mkdir(parents=True, exist_ok=True)
     for i, feat in enumerate(data["features"], 1):
-        thumb = thumb_dir / f"{i:03d}.png"
+        thumb = thumb_dir / f"{i:03d}.jpg"
         ts = max(0, feat["start_s"])
         cmd = [
             "ffmpeg", "-y",
             "-ss", str(ts),
             "-i", str(video_path),
             "-frames:v", "1",
-            "-q:v", "3",
+            "-vf", "scale=480:-1",
+            "-q:v", "5",
             str(thumb),
         ]
         print(f"==> thumb {i:03d} @ {ts}s")
