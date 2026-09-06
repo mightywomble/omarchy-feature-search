@@ -28,34 +28,49 @@ desktop look and feel.
   category, timestamp, and a link to search for more info on YouTube.
 - **Themed** — matches the active Omarchy desktop theme automatically.
 
-## Requirements
-
-- Python 3.11+
-- PySide6 (Qt GUI)
-- Qt Multimedia (in-app video + audio)
-- yt-dlp (segment download)
-- ffmpeg (video merge/transcode during download)
-
-Optional (for semantic search):
-- chromadb
-- sentence-transformers
-
 ## Install
 
-### Omarchy / Arch — AUR
+### Omarchy / Arch — build and install locally (verified)
 
 ```fish
-yay -S omarchy-feature-search
-# or: paru -S omarchy-feature-search
+git clone git@git.safehomelan.com:david/ncomarchykb.git
+cd ncomarchykb/packaging/aur
+makepkg -si PKGBUILD
 ```
 
-Then launch it from the Super+Space launcher (it ships a `.desktop` + icon), or
-run `omarchy-feature-search` from the terminal.
+This builds the wheel, installs it via pacman (0.33 MiB), drops the
+`.desktop` entry + icon, and registers the `omarchy-feature-search` console
+script in `/usr/bin/`. After install:
 
-The AUR package pulls in `python-pyside6` and `mpv` as required deps. The
-heavy/optional deps (`python-sentence-transformers`, `python-chromadb`,
-`python-mpv`, `ffmpeg`, `yt-dlp`) are listed as `optdepends` — install them to
-unlock semantic search and in-app video playback.
+- **Super+Space launcher** — search for "Omarchy Feature Search" and click it
+- **Terminal** — run `omarchy-feature-search`
+
+For the git variant (tracks latest HEAD, no release tag needed):
+
+```fish
+makepkg -si PKGBUILD-git
+```
+
+### Publish to the AUR (for `yay -S` install)
+
+```fish
+# 1. Register at https://aur.archlinux.org/register and upload your SSH key
+# 2. Clone the empty AUR package
+git clone ssh://aur@aur.archlinux.org/omarchy-feature-search.git aur-pkg
+cd aur-pkg
+# 3. Copy files in
+cp /path/to/ncomarchykb/packaging/aur/PKGBUILD .
+cp /path/to/ncomarchykb/packaging/aur/omarchy-feature-search.desktop .
+makepkg --printsrcinfo > .SRCINFO
+# 4. Commit and push to AUR
+git add PKGBUILD omarchy-feature-search.desktop .SRCINFO
+git commit -m "Initial import: omarchy-feature-search 0.1.0"
+git push
+# 5. Install from AUR
+yay -S omarchy-feature-search
+```
+
+Full details and the `-git` variant in `packaging/aur/README.md`.
 
 ### Other distros — pipx
 
@@ -64,7 +79,7 @@ pipx install omarchy-feature-search
 pipx inject omarchy-feature-search chromadb sentence-transformers  # optional: semantic search
 ```
 
-### From source
+### From source (dev)
 
 ```fish
 git clone git@git.safehomelan.com:david/ncomarchykb.git
@@ -74,11 +89,39 @@ pip install -e ".[dev]"
 python -m omarchy_feature_search
 ```
 
+## Requirements
+
+**Installed by the package:**
+- Python 3.11+
+- PySide6 (Qt GUI + Qt Multimedia for in-app video/audio)
+- yt-dlp (segment download)
+- ffmpeg (video merge/transcode during download)
+
+**Optional (for semantic search):**
+- chromadb
+- sentence-transformers
+
+Install the optional deps on Arch:
+```fish
+sudo pacman -S python-sentence-transformers python-chromadb
+```
+
+## Usage
+
+1. Launch the app from the Super+Space launcher or run `omarchy-feature-search`.
+2. The left pane shows all 83 features. Browse or type in the search box to
+   filter (e.g. "screenshot", "install", "workspace", "night light").
+3. Click a feature to see its details on the right: name, summary, command(s),
+   and a video thumbnail.
+4. Click the thumbnail to play that segment of the video in-app. The first
+   play of each segment downloads it once (~20s with a fun progress overlay);
+   replays are instant from cache.
+5. The summary includes a link to search for more info on YouTube.
+
 ## Build the bundled data (one-time, optional)
 
 The app ships with a pre-built `features.json` (structured table + transcript
-summaries). To add real frame thumbnails and build the semantic vector index,
-run the data pipeline once:
+summaries). To add real frame thumbnails and build the semantic vector index:
 
 ```fish
 python -m data_pipeline.build_data --steps thumbnails,embed
@@ -86,14 +129,12 @@ python -m data_pipeline.build_data --steps thumbnails,embed
 
 - `thumbnails` — downloads the video and uses `ffmpeg` to grab a frame at each
   feature's start time.
-- `embed` — embeds each feature (description + how-to + transcript) with
-  `sentence-transformers` into a persistent ChromaDB index for semantic search.
+- `embed` — embeds each feature with `sentence-transformers` into a ChromaDB
+  index for semantic search.
 
-Transcript summaries are already bundled in `features.json` (pulled from the
-video's auto-generated subtitles).
-
-Without this step, the app still works: keyword search, how-to text as
-summaries, and placeholder thumbnails that still play the segment on click.
+Transcript summaries are already bundled (pulled from the video's auto-generated
+subtitles). Without this step the app still works — keyword search and
+placeholder thumbnails that still play segments on click.
 
 ## Tests
 
@@ -105,6 +146,12 @@ pytest
 16 tests covering VTT parsing/slicing, timestamp parsing, seed integrity,
 keyword search ranking/confidence/sorting, semantic index availability, and
 GUI smoke (builds the main window offscreen).
+
+## Uninstall
+
+```fish
+sudo pacman -R omarchy-feature-search
+```
 
 ## Project layout
 
@@ -122,7 +169,7 @@ ncomarchykb/
     extract_table.py             # seed 83 features from the PDF
     vtt.py                       # WebVTT parser + timestamp slicer
     build_data.py                # CLI: transcript, thumbnails, embed
-  packaging/aur/                # AUR PKGBUILD + .desktop entry
+  packaging/aur/                # AUR PKGBUILD + .desktop entry + guide
   tests/                         # 16 pytest tests
 ```
 
