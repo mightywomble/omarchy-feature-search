@@ -1,34 +1,48 @@
 # Omarchy Feature Search
 
 A native Linux desktop app that turns NetworkChuck's *"Omarchy Can Do WHAT?! 50
-Features You're Missing"* video into a searchable knowledge base. Type **"how do
-I…"** and get, per match:
+Features You're Missing"* video into a searchable knowledge base.
 
-- the structured feature row (feature group, feature, **how to use**, start/end timestamp)
-- a **match-confidence %**
-- a short **transcript summary** of that part of the video
-- a **video-frame thumbnail** — click it to play that exact segment inline,
-  seeking to the timestamp.
+Browse all 83 features, search to filter the list, click one to see its details
+(name, summary, command, thumbnail), and click the thumbnail to play that
+exact segment of the video in-app with audio.
 
 Built for [Omarchy](https://omarchy.org/) (Arch + Hyprland). The UI loads the
 active Omarchy theme's `colors.toml` at runtime, so it always matches your
-desktop look and feel, and the app icon is a NetworkChuck-themed mark.
+desktop look and feel.
 
-## How it works
+## Features
 
-- **Search** — semantic vector search (ChromaDB + `sentence-transformers`
-  `all-MiniLM-L6-v2`) when the optional deps + built index are present, else a
-  fast local keyword fallback. Both return a 0–100 confidence %.
-- **Playback** — `mpv` streams the YouTube segment at the timestamp
-  (`mpv --start=SS --ytdl …`). No full video download needed to play. Embedded
-  in-app when `python-mpv` is installed, otherwise an external mpv window.
-- **Data** — `data/features.json` ships bundled (feature table + transcript
-  summaries). The optional pipeline (`python -m data_pipeline.build_data`)
-  enriches it with real frame thumbnails and builds the semantic vector index.
+- **Master-detail layout** — browsable list of all 83 features (group, name,
+  command, thumbnail) on the left; detail panel on the right.
+- **Live search** — type to filter the list instantly. Uses fast keyword search
+  immediately, then switches to semantic vector search (ChromaDB +
+  `sentence-transformers`) once the model finishes loading in the background.
+- **In-app video playback** — clicking a thumbnail downloads just the segment
+  (≤480p, AAC audio, cached per segment) and plays it in-app via Qt Multimedia,
+  pausing at the clip's end. First click per segment takes ~20s (one-time
+  download); subsequent clicks are instant from cache.
+- **Fun progress overlay** — rotating tech phrases ("Cleaning the lugnuts…",
+  "Tweaking the pipes…", etc.) while the segment downloads.
+- **Informative summaries** — rich-text summary with description, how-to,
+  category, timestamp, and a link to search for more info on YouTube.
+- **Themed** — matches the active Omarchy desktop theme automatically.
+
+## Requirements
+
+- Python 3.11+
+- PySide6 (Qt GUI)
+- Qt Multimedia (in-app video + audio)
+- yt-dlp (segment download)
+- ffmpeg (video merge/transcode during download)
+
+Optional (for semantic search):
+- chromadb
+- sentence-transformers
 
 ## Install
 
-### Omarchy / Arch (recommended) — AUR
+### Omarchy / Arch — AUR
 
 ```fish
 yay -S omarchy-feature-search
@@ -36,44 +50,50 @@ yay -S omarchy-feature-search
 ```
 
 Then launch it from the Super+Space launcher (it ships a `.desktop` + icon), or
-run `omarchy-feature-search`.
+run `omarchy-feature-search` from the terminal.
 
-Required deps pulled in by the package: `python-pyside6`, `mpv`. Heavy/optional
-deps (`python-sentence-transformers`, `python-chromadb`, `python-mpv`, `ffmpeg`,
-`yt-dlp`) are listed as `optdepends` — install them to unlock embedded playback
-and semantic search, then run the data pipeline once.
+The AUR package pulls in `python-pyside6` and `mpv` as required deps. The
+heavy/optional deps (`python-sentence-transformers`, `python-chromadb`,
+`python-mpv`, `ffmpeg`, `yt-dlp`) are listed as `optdepends` — install them to
+unlock semantic search and in-app video playback.
 
 ### Other distros — pipx
 
 ```fish
 pipx install omarchy-feature-search
-pipx inject omarchy-feature-search python-mpv chromadb sentence-transformers  # optional extras
+pipx inject omarchy-feature-search chromadb sentence-transformers  # optional: semantic search
 ```
 
-## Build the enhanced bundled data (optional, one-time)
+### From source
 
 ```fish
-python -m data_pipeline.build_data --steps transcript,thumbnails,embed
-```
-
-- `transcript` — `yt-dlp` pulls the auto-generated subtitle track; each feature's
-  timestamp range is sliced into a transcript summary. (Lightweight, no video
-  download.)
-- `thumbnails` — downloads the video once and uses `ffmpeg` to grab a frame at
-  each feature's start time. (Heavier — best run on a dev/test machine.)
-- `embed` — embeds each feature (description + how-to + transcript) with
-  `sentence-transformers` into a persistent ChromaDB index for semantic search.
-
-Without this, the app still works: keyword search, how-to text as the summary,
-and styled placeholder thumbnails that still play the segment on click.
-
-## Run from source
-
-```fish
+git clone git@git.safehomelan.com:david/ncomarchykb.git
+cd ncomarchykb
 python -m venv venv && source venv/bin/activate
 pip install -e ".[dev]"
 python -m omarchy_feature_search
 ```
+
+## Build the bundled data (one-time, optional)
+
+The app ships with a pre-built `features.json` (structured table + transcript
+summaries). To add real frame thumbnails and build the semantic vector index,
+run the data pipeline once:
+
+```fish
+python -m data_pipeline.build_data --steps thumbnails,embed
+```
+
+- `thumbnails` — downloads the video and uses `ffmpeg` to grab a frame at each
+  feature's start time.
+- `embed` — embeds each feature (description + how-to + transcript) with
+  `sentence-transformers` into a persistent ChromaDB index for semantic search.
+
+Transcript summaries are already bundled in `features.json` (pulled from the
+video's auto-generated subtitles).
+
+Without this step, the app still works: keyword search, how-to text as
+summaries, and placeholder thumbnails that still play the segment on click.
 
 ## Tests
 
@@ -82,6 +102,30 @@ pip install -e ".[dev]"
 pytest
 ```
 
-The pipeline and search tests need no heavy deps (they cover VTT slicing,
-timestamp parsing, keyword ranking/confidence). The GUI smoke test skips
-automatically if `PySide6` is not installed.
+16 tests covering VTT parsing/slicing, timestamp parsing, seed integrity,
+keyword search ranking/confidence/sorting, semantic index availability, and
+GUI smoke (builds the main window offscreen).
+
+## Project layout
+
+```
+ncomarchykb/
+  src/omarchy_feature_search/   # runtime package
+    app.py                        # PySide6 master-detail main window
+    search.py                     # keyword + semantic search engine
+    player.py                     # segment download + cache
+    theme.py                      # Omarchy colors.toml -> Qt stylesheet
+    data.py                       # bundled data locator
+    data/features.json           # 83 features + transcript summaries
+    assets/                      # NetworkChuck-themed icon + logo SVGs
+  data_pipeline/                 # one-time data build
+    extract_table.py             # seed 83 features from the PDF
+    vtt.py                       # WebVTT parser + timestamp slicer
+    build_data.py                # CLI: transcript, thumbnails, embed
+  packaging/aur/                # AUR PKGBUILD + .desktop entry
+  tests/                         # 16 pytest tests
+```
+
+## License
+
+MIT
