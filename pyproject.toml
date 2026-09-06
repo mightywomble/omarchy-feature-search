@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omarchy-feature-search"
+version = "0.1.0"
+description = "Searchable NetworkChuck Omarchy features knowledge base with click-to-play video segments"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "david" }]
+keywords = ["omarchy", "networkchuck", "hyprland", "video", "search", "linux"]
+dependencies = [
+    "PySide6>=6.7",
+]
+
+[project.optional-dependencies]
+# Enables embedded in-app video playback (otherwise falls back to an external mpv window).
+embedded = ["python-mpv>=1.0"]
+# Enables semantic (vector) search. Without it the app uses keyword search.
+semantic = ["chromadb>=0.5", "sentence-transformers>=3.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+omarchy-feature-search = "omarchy_feature_search.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+omarchy_feature_search = ["data/*.json", "data/thumbnails/*.png", "data/thumbnails/*.jpg", "assets/*.svg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

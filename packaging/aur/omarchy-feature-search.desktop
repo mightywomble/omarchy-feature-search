@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Omarchy Feature Search
+GenericName=Omarchy Feature Search
+Comment=Search NetworkChuck's Omarchy features and play the matching video segment
+Comment[en]=Search NetworkChuck's Omarchy features and play the matching video segment
+Exec=omarchy-feature-search
+Icon=omarchy-feature-search
+Terminal=false
+Categories=Utility;AudioVideo;Video;
+Keywords=omarchy;networkchuck;hyprland;search;video;features;
+StartupWMClass=omarchy-feature-search

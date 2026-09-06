@@ -1,0 +1,11 @@
+# Runtime (core)
+PySide6>=6.7
+# Optional but installed for full-feature testing on the dev box:
+python-mpv>=1.0
+# Semantic search + data pipeline embeddings:
+chromadb>=0.5
+sentence-transformers>=3.0
+# Testing:
+pytest>=8.0
+# NOTE: the system binaries `mpv`, `yt-dlp` and `ffmpeg` are also required and
+# are invoked as subprocesses (playback streaming, transcript + thumbnail build).

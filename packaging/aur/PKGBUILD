@@ -1,0 +1,57 @@
+# Maintainer: david <david@example.com>
+# AUR package: omarchy-feature-search
+# A searchable NetworkChuck Omarchy features knowledge base with click-to-play
+# video segments. Native Qt (PySide6) app, themed to match the active Omarchy
+# desktop theme.
+
+pkgname=omarchy-feature-search
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Searchable NetworkChuck Omarchy features knowledge base with click-to-play video segments"
+arch=('any')
+url="https://github.com/david/ncomarchykb"
+license=('MIT')
+depends=(
+    'python>=3.11'
+    'python-pyside6>=6.7'
+    'mpv'
+)
+makedepends=(
+    'python-build'
+    'python-installer'
+    'python-setuptools'
+    'python-wheel'
+)
+optdepends=(
+    'python-mpv: embedded in-app video playback (otherwise opens an external mpv window)'
+    'python-sentence-transformers: semantic (vector) search backend'
+    'python-chromadb: persistent vector index for the semantic search backend'
+    'yt-dlp: transcript + thumbnail data pipeline (one-time build)'
+    'ffmpeg: frame-thumbnail extraction in the data pipeline (one-time build)'
+)
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('SKIP')
+
+build() {
+    cd "${srcdir}/${pkgname}-${pkgver%-*}"
+    # The AUR tarball is extracted into a dir named pkgname-pkgver (no -rel).
+    if [[ ! -f pyproject.toml ]]; then
+        cd "${srcdir}/${pkgname}-${pkgver}" 2>/dev/null || true
+    fi
+    python -m build --wheel --no-isolation
+}
+
+package() {
+    cd "${srcdir}/${pkgname}-${pkgver%-*}"
+    if [[ ! -f pyproject.toml ]]; then
+        cd "${srcdir}/${pkgname}-${pkgver}" 2>/dev/null || true
+    fi
+    python -m installer --destdir="${pkgdir}" dist/*.whl
+
+    # Desktop entry + icon so it appears in the Super+Space launcher.
+    install -Dm644 packaging/aur/omarchy-feature-search.desktop \
+        "${pkgdir}/usr/share/applications/omarchy-feature-search.desktop"
+    install -Dm644 src/omarchy_feature_search/assets/icon.svg \
+        "${pkgdir}/usr/share/icons/hicolor/scalable/apps/omarchy-feature-search.svg"
+    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
